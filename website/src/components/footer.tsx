@@ -1,10 +1,8 @@
 import React from "react"
 import { Box, Icon, Text, Stack, Link, chakra } from "@chakra-ui/react"
-import { IoLogoTwitter, IoLogoLinkedin } from "react-icons/io"
+import { IoLogoTwitter, IoLogoFacebook } from "react-icons/io"
 import { FaYoutube } from "react-icons/fa"
-import { MdEmail } from "react-icons/md"
 import { DiGithubBadge } from "react-icons/di"
-import { VercelCallout } from "./vercel-callout"
 
 type FooterLinkProps = {
   icon?: React.ElementType
@@ -22,31 +20,26 @@ const links = [
   {
     icon: DiGithubBadge,
     label: "GitHub",
-    href: "https://github.com/segunadebayo",
+    href: "https://github.com/creativetimofficial",
   },
   {
     icon: IoLogoTwitter,
     label: "Twitter",
-    href: "https://twitter.com/thesegunadebayo",
+    href: "https://twitter.com/creativetim",
   },
   {
-    icon: IoLogoLinkedin,
-    label: "LinkedIn",
-    href: "https://linkedin.com/in/thesegunadebayo/",
-  },
-  {
-    icon: MdEmail,
-    label: "Email",
-    href: "mailto:sage@adebayosegun.com",
+    icon: IoLogoFacebook,
+    label: "Facebook",
+    href: "https://www.facebook.com/CreativeTim",
   },
   {
     icon: FaYoutube,
     label: "YouTube",
-    href: "https://www.youtube.com/channel/UC4TmDovH46TB4S0SM0Y4CIg",
+    href: "https://www.youtube.com/channel/UCVyTG4sCw-rOvB9oHkzZD1w",
   },
 ]
 
-const NigeriaFlag = (props) => (
+const RomaniaFlag = (props) => (
   <chakra.svg
     display="inline-block"
     mx="3"
@@ -56,17 +49,19 @@ const NigeriaFlag = (props) => (
     verticalAlign="middle"
     {...props}
   >
-    <title>Nigeria</title>
+    <title>Romania</title>
     <g>
-      <rect x="16" y="6" fill="#E6E6E6" width="16" height="36"></rect>{" "}
-      <path
-        fill="#078754"
-        d="M48,40c0,1.105-0.895,2-2,2H32V6h14c1.105,0,2,0.895,2,2V40z"
-      />
-      <path
-        fill="#078754"
-        d="M16,42H2c-1.105,0-2-0.895-2-2V8c0-1.105,0.895-2,2-2h14V42z"
-      />
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
+        <path
+          fill="#002B7F"
+          d="M4 5C1.791 5 0 6.791 0 9v18c0 2.209 1.791 4 4 4h8V5H4z"
+        />
+        <path fill="#FCD116" d="M12 5h12v26H12z" />
+        <path
+          fill="#CE1126"
+          d="M32 5h-8v26h8c2.209 0 4-1.791 4-4V9c0-2.209-1.791-4-4-4z"
+        />
+      </svg>
     </g>
   </chakra.svg>
 )
@@ -76,16 +71,23 @@ export const Footer = () => (
     <Text fontSize="sm">
       <span>
         Proudly made in
-        <NigeriaFlag />
+        <RomaniaFlag />
+        by &nbsp;
       </span>
-      <span>by Segun Adebayo</span>
+      <a target="_blank" href="https://www.creative-tim.com?ref=docs-pud">
+        Creative Tim{" "}
+      </a>
+      &amp;
+      <a target="_blank" href="https://www.simmmple.com?ref=docs-pud">
+        {" "}
+        Simmmple
+      </a>
     </Text>
     <Stack mt={4} direction="row" spacing="12px" justify="center">
       {links.map((link) => (
         <FooterLink key={link.href} {...link} />
       ))}
     </Stack>
-    <VercelCallout />
   </Box>
 )
 

@@ -21,7 +21,7 @@ import { AiOutlineMenu } from "react-icons/ai"
 import { RemoveScroll } from "react-remove-scroll"
 import Logo from "./logo"
 import { SidebarContent } from "./sidebar/sidebar"
-import SponsorButton from "./sponsor-button"
+import DownloadButton from "./sponsor-button"
 
 function NavLink({ href, children }) {
   const { pathname } = useRouter()
@@ -113,7 +113,7 @@ export function MobileNavContent(props: MobileNavContentProps) {
                 <Flex justify="space-between" px="6" pt="5" pb="4">
                   <Logo sx={{ rect: { fill: "teal.300" } }} />
                   <HStack spacing="5">
-                    <SponsorButton display="flex" />
+                    <DownloadButton display="flex" />
                     <CloseButton ref={closeBtnRef} onClick={onClose} />
                   </HStack>
                 </Flex>

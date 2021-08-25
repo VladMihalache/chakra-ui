@@ -1,17 +1,16 @@
-const baseUrl = "https://github.com/chakra-ui/chakra-ui"
+const baseUrl = "https://github.com/creativetimofficial/purity-ui-dashboard"
 
 const siteConfig = {
-  copyright: `Copyright © ${new Date().getFullYear()} Segun Adebayo. All Rights Reserved.`,
+  copyright: `Copyright © ${new Date().getFullYear()} Creative Tim. All Rights Reserved.`,
   algolia: {
-    apiKey: "df1dcc41f7b8e5d68e73dd56d1e19701",
-    indexName: "chakra-ui",
+    apiKey: "655968634437471",
+    indexName: "purity-ui-dashboard",
     inputSelector: "#algolia-search",
   },
   author: {
-    name: "Segun Adebayo",
-    github: "https://github.com/segunadebayo",
-    twitter: "https://twitter.com/thesegunadebayo",
-    linkedin: "https://linkedin.com/in/thesegunadebayo",
+    name: "Creative Tim & Simmmple",
+    github: "https://github.com/creativetimofficial",
+    twitter: "https://twitter.com/creativetim",
     email: "sage@adebayosegun.com",
   },
   repo: {
@@ -19,47 +18,48 @@ const siteConfig = {
     editUrl: `${baseUrl}/edit/main/website/pages`,
     blobUrl: `${baseUrl}/blob/main`,
   },
-  openCollective: {
-    url: "https://opencollective.com/chakra-ui",
+  freeDownload: {
+    url:
+      "https://www.creative-tim.com/product/purity-ui-dashboard?ref=docs-pud",
   },
-  discord: {
-    url: "https://discord.gg/chakra-ui",
-  },
-  youtube: "https://www.youtube.com/channel/UC4TmDovH46TB4S0SM0Y4CIg",
+  youtube: "https://www.youtube.com/channel/UCVyTG4sCw-rOvB9oHkzZD1w",
   seo: {
-    title: "Chakra UI",
-    titleTemplate: "%s - Chakra UI",
+    title: "Purity UI Dashboard",
+    titleTemplate: "%s - Purity UI Dashboard",
     description:
       "Simple, Modular and Accessible UI Components for your React Applications.",
-    siteUrl: "https://chakra-ui.com",
+    siteUrl:
+      "https://www.creative-tim.com/product/purity-ui-dashboard?ref=docs-pud",
     twitter: {
-      handle: "@chakra-ui",
-      site: "@chakra-ui",
+      handle: "@creativetim",
+      site: "@creativetim",
       cardType: "summary_large_image",
     },
     openGraph: {
       type: "website",
       locale: "en_US",
-      url: "https://chakra-ui.com",
-      title: "Chakra UI",
+      url: "https://www.creative-tim.com?ref=docs-pud",
+      title: "Purity UI Dashboard",
       description:
-        "Simple, Modular and Accessible UI Components for your React Applications.",
+        "Purity UI Dashboard is a beautiful Chakra UI ReactJS admin dashboard with a large number of components, designed to look beautiful, clean and organized. If you are looking for a tool to manage dates about your business, this dashboard is the thing for you.",
       site_name:
-        "Chakra UI: Simple, Modular and Accessible UI Components for your React Applications.",
+        "Most trendiest, complex and innovative Dashboard Made by Creative Tim & Simmmple. Check our latest Free ReactJS Dashboard based on Chakra UI.",
       images: [
         {
-          url: "https://chakra-ui.com/og-image.png",
+          url:
+            "https://i.ibb.co/7NXMZQS/Cover-Purity-Chakra-FREE-Thumbnail.png",
           width: 1240,
           height: 480,
           alt:
-            "Chakra UI: Simple, Modular and Accessible UI Components for your React Applications.",
+            "Most trendiest, complex and innovative Dashboard Made by Creative Tim & Simmmple. Check our latest Free ReactJS Dashboard based on Chakra UI.",
         },
         {
-          url: "https://chakra-ui.com/twitter-og-image.png",
+          url:
+            "https://i.ibb.co/7NXMZQS/Cover-Purity-Chakra-FREE-Thumbnail.png",
           width: 1012,
           height: 506,
           alt:
-            "Chakra UI: Simple, Modular and Accessible UI Components for your React Applications.",
+            "Most trendiest, complex and innovative Dashboard Made by Creative Tim & Simmmple. Check our latest Free ReactJS Dashboard based on Chakra UI.",
         },
       ],
     },

@@ -2,7 +2,6 @@ import { useRouter } from "next/router"
 import * as React from "react"
 import { Badge, Box, chakra, Flex } from "@chakra-ui/react"
 import { SkipNavContent, SkipNavLink } from "@chakra-ui/skip-nav"
-import EditPageLink from "components/edit-page-button"
 import Footer from "components/footer"
 import Header from "components/header"
 import SEO from "components/seo"
@@ -81,10 +80,6 @@ function PageContainer(props: PageContainerProps) {
                       </Badge>
                     )}
                     {children}
-                    <Box mt="40px">
-                      <Box>{editUrl && <EditPageLink href={editUrl} />}</Box>
-                      {pagination || null}
-                    </Box>
                     <Box pb="20">
                       <Footer />
                     </Box>

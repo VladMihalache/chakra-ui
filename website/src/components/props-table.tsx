@@ -147,10 +147,7 @@ function makePropsTable({ of, omit, only }: MakePropsTableOptions) {
     <>
       {feat} for <InlineCode>{of}</InlineCode> are not implemented in the
       default theme. You can{" "}
-      <Link
-        href="/docs/theming/customize-theme#customizing-component-styles"
-        passHref
-      >
+      <Link href="" passHref>
         <Anchor>extend the theme</Anchor>
       </Link>{" "}
       to implement them.

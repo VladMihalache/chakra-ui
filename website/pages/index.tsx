@@ -24,7 +24,6 @@ import users from "chakra-users"
 import { ChakraProAd } from "components/chakra-pro/home-page-ad"
 import { AdBanner } from "components/chakra-pro/ad-banner"
 import Container from "components/container"
-import DiscordStrip from "components/discord-strip"
 import { Footer } from "components/footer"
 import Header from "components/header"
 import SEO from "components/seo"
@@ -34,7 +33,7 @@ import NextLink from "next/link"
 import * as React from "react"
 import { AiFillThunderbolt } from "react-icons/ai"
 import { DiGithubBadge } from "react-icons/di"
-import { FaArrowRight, FaDiscord, FaMicrophone } from "react-icons/fa"
+import { FaArrowRight, FaMicrophone } from "react-icons/fa"
 import { FiDownload, FiGithub, FiUsers } from "react-icons/fi"
 import { IoMdMoon } from "react-icons/io"
 import { MdAccessibility, MdGrain, MdPalette } from "react-icons/md"
@@ -331,10 +330,6 @@ const HomePage = ({ members, sponsors, githubStars }: HomePageProps) => {
                 Guaranteed to boost your productivity when building your app or
                 website.
               </Feature>
-              <Feature icon={FaDiscord} title="Active Community">
-                We're a team of active maintainers ready to help you whenever
-                you need.
-              </Feature>
             </Grid>
           </Container>
         </Box>
@@ -371,11 +366,6 @@ const HomePage = ({ members, sponsors, githubStars }: HomePageProps) => {
                 icon={FiUsers}
                 title={members.length.toString()}
                 description="Core contributors"
-              />
-              <StatBox
-                icon={FaDiscord}
-                title="2.9K"
-                description="Discord members"
               />
             </SimpleGrid>
 
@@ -626,9 +616,6 @@ const HomePage = ({ members, sponsors, githubStars }: HomePageProps) => {
             </Button>
           </Container>
         </Box>
-
-        <DiscordStrip />
-
         <Footer />
       </Box>
     </>

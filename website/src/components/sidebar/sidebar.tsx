@@ -130,21 +130,6 @@ const mainNavLinks = [
     href: "/docs/getting-started",
     label: "Docs",
   },
-  {
-    icon: <GuidesIcon />,
-    href: "/guides/integrations/with-cra",
-    label: "Guides",
-  },
-  {
-    icon: <ResourcesIcon />,
-    href: "/resources",
-    label: "Resources",
-  },
-  {
-    icon: <TeamIcon />,
-    href: "/team",
-    label: "Team",
-  },
 ]
 
 const MainNavLinkGroup = (props: ListProps) => {

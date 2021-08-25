@@ -5,7 +5,6 @@ import PageContainer from "components/page-container"
 import Pagination from "components/pagination"
 import Sidebar from "components/sidebar/sidebar"
 import docsSidebar from "configs/docs-sidebar.json"
-import guidesSidebar from "configs/guides-sidebar.json"
 import * as React from "react"
 import { findRouteByPath, removeFromLast } from "utils/find-route-by-path"
 import { getRouteContext } from "utils/get-route-context"
@@ -15,9 +14,7 @@ export function getRoutes(slug: string) {
   if (slug === "/") return docsSidebar.routes
 
   const configMap = {
-    "/resources": docsSidebar,
     "/changelog": docsSidebar,
-    "/guides": guidesSidebar,
     "/docs": docsSidebar,
   }
 

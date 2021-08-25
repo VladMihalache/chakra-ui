@@ -1,10 +1,5 @@
 async function redirect() {
   return [
-    {
-      source: "/discord",
-      destination: "https://discord.gg/chakra-ui",
-      permanent: true,
-    },
     // GENERAL
     {
       source: "/docs",

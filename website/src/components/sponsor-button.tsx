@@ -1,15 +1,14 @@
 import React from "react"
 import { Box, BoxProps, Icon } from "@chakra-ui/react"
-import { FaHeart } from "react-icons/fa"
 import siteConfig from "configs/site-config"
 
-const SponsorButton = (props: BoxProps) => (
+const DownloadButton = (props: BoxProps) => (
   <Box
     display={{ base: "none", lg: "flex" }}
     alignItems="center"
     as="a"
-    aria-label="Sponsor Chakra UI on Open Collective"
-    href={siteConfig.openCollective.url}
+    aria-label="Free Download"
+    href={siteConfig.freeDownload.url}
     target="_blank"
     rel="noopener noreferrer"
     bg="gray.50"
@@ -34,11 +33,10 @@ const SponsorButton = (props: BoxProps) => (
     }}
     {...props}
   >
-    <Icon as={FaHeart} w="4" h="4" color="red.500" mr="2" />
     <Box as="strong" lineHeight="inherit" fontWeight="semibold">
-      Sponsor
+      Free Download
     </Box>
   </Box>
 )
 
-export default SponsorButton
+export default DownloadButton
