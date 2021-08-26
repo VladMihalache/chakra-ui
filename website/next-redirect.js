@@ -17,51 +17,11 @@ async function redirect() {
       permanent: true,
     },
     {
-      source: "/style-props",
-      destination: "/docs/features/style-props",
-      permanent: true,
-    },
-    {
-      source: "/color-mode",
-      destination: "/docs/features/color-mode",
-      permanent: true,
-    },
-    {
-      source: "/responsive-styles",
-      destination: "/docs/features/responsive-styles",
-      permanent: true,
-    },
-    {
       source: "/theme",
       destination: "/docs/theming/theme",
       permanent: true,
     },
-    {
-      source: "/recipes",
-      destination: "/guides/integrations/with-cra",
-      permanent: true,
-    },
     // COMPONENTS
-    {
-      source: "/accordion",
-      destination: "/docs/disclosure/accordion",
-      permanent: true,
-    },
-    {
-      source: "/alert",
-      destination: "/docs/feedback/alert",
-      permanent: true,
-    },
-    {
-      source: "/alert-dialog",
-      destination: "/docs/overlay/alert-dialog",
-      permanent: true,
-    },
-    {
-      source: "/aspectratiobox",
-      destination: "/docs/layout/aspect-ratio",
-      permanent: true,
-    },
     {
       source: "/avatar",
       destination: "/docs/media-and-icons/avatar",
@@ -78,11 +38,6 @@ async function redirect() {
       permanent: true,
     },
     {
-      source: "/wrap",
-      destination: "/docs/layout/wrap",
-      permanent: true,
-    },
-    {
       source: "/breadcrumb",
       destination: "/docs/navigation/breadcrumb",
       permanent: true,
@@ -93,38 +48,13 @@ async function redirect() {
       permanent: true,
     },
     {
-      source: "/checkbox",
-      destination: "/docs/form/checkbox",
-      permanent: true,
-    },
-    {
-      source: "/circularprogress",
-      destination: "/docs/feedback/circular-progress",
-      permanent: true,
-    },
-    {
       source: "/closebutton",
       destination: "/docs/components/close-button",
       permanent: true,
     },
     {
-      source: "/code",
-      destination: "/docs/data-display/code",
-      permanent: true,
-    },
-    {
       source: "/portal",
       destination: "/docs/components/portal",
-      permanent: true,
-    },
-    {
-      source: "/collapse",
-      destination: "/docs/components/transition#collapse",
-      permanent: true,
-    },
-    {
-      source: "/center",
-      destination: "/docs/layout/center",
       permanent: true,
     },
     {
@@ -134,18 +64,8 @@ async function redirect() {
       permanent: true,
     },
     {
-      source: "/divider",
-      destination: "/docs/data-display/divider",
-      permanent: true,
-    },
-    {
       source: "/drawer",
       destination: "/docs/overlay/drawer",
-      permanent: true,
-    },
-    {
-      source: "/editable",
-      destination: "/docs/form/editable",
       permanent: true,
     },
     {
@@ -194,11 +114,6 @@ async function redirect() {
       permanent: true,
     },
     {
-      source: "/kbd",
-      destination: "/docs/data-display/kbd",
-      permanent: true,
-    },
-    {
       source: "/list",
       destination: "/docs/data-display/list",
       permanent: true,
@@ -214,13 +129,8 @@ async function redirect() {
       permanent: true,
     },
     {
-      source: "/numberinput",
-      destination: "/docs/form/number-input",
-      permanent: true,
-    },
-    {
-      source: "/popover",
-      destination: "/docs/overlay/popover",
+      source: "/navbar",
+      destination: "/docs/navigation/navbar",
       permanent: true,
     },
     {
@@ -235,33 +145,8 @@ async function redirect() {
       permanent: true,
     },
     {
-      source: "/radio",
-      destination: "/docs/form/radio",
-      permanent: true,
-    },
-    {
       source: "/simplegrid",
       destination: "/docs/layout/simple-grid",
-      permanent: true,
-    },
-    {
-      source: "/select",
-      destination: "/docs/form/select",
-      permanent: true,
-    },
-    {
-      source: "/skeleton",
-      destination: "/docs/feedback/skeleton",
-      permanent: true,
-    },
-    {
-      source: "/slider",
-      destination: "/docs/form/slider",
-      permanent: true,
-    },
-    {
-      source: "/spinner",
-      destination: "/docs/feedback/spinner",
       permanent: true,
     },
     {
@@ -285,11 +170,6 @@ async function redirect() {
       permanent: true,
     },
     {
-      source: "/tag",
-      destination: "/docs/data-display/tag",
-      permanent: true,
-    },
-    {
       source: "/text",
       destination: "/docs/typography/text",
       permanent: true,
@@ -297,21 +177,6 @@ async function redirect() {
     {
       source: "/textarea",
       destination: "/docs/form/textarea",
-      permanent: true,
-    },
-    {
-      source: "/toast",
-      destination: "/docs/feedback/toast",
-      permanent: true,
-    },
-    {
-      source: "/tooltip",
-      destination: "/docs/overlay/tooltip",
-      permanent: true,
-    },
-    {
-      source: "/docs/components/visually-hidden",
-      destination: "/docs/disclosure/visually-hidden",
       permanent: true,
     },
   ]

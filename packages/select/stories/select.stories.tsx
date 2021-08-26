@@ -1,4 +1,4 @@
-import { Container, Stack } from "@chakra-ui/layout"
+import { Stack } from "@chakra-ui/layout"
 import * as React from "react"
 import { Select } from "../src"
 

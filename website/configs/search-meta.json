@@ -39,155 +39,6 @@
     "hierarchy": { "lvl1": "CloseButton", "lvl2": "Props", "lvl3": null }
   },
   {
-    "content": "Transitions",
-    "id": "722c3868-f95a-4de4-86ab-d7abf996b53c",
-    "type": "lvl1",
-    "url": "/docs/components/transitions",
-    "hierarchy": { "lvl1": "Transitions" }
-  },
-  {
-    "content": "Import",
-    "id": "308b8a40-0626-4f55-a892-c71f54b78ff4",
-    "type": "lvl2",
-    "url": "/docs/components/transitions#import",
-    "hierarchy": { "lvl1": "Transitions", "lvl2": "Import", "lvl3": null }
-  },
-  {
-    "content": "Usage",
-    "id": "4dc04648-c409-4913-be61-f073e6a3883c",
-    "type": "lvl2",
-    "url": "/docs/components/transitions#usage",
-    "hierarchy": { "lvl1": "Transitions", "lvl2": "Usage", "lvl3": null }
-  },
-  {
-    "content": "Fade transition",
-    "id": "435fa75c-c83e-48d5-9f15-df13dbdc99f1",
-    "type": "lvl3",
-    "url": "/docs/components/transitions#fade-transition",
-    "hierarchy": {
-      "lvl1": "Transitions",
-      "lvl2": "Usage",
-      "lvl3": "Fade transition"
-    }
-  },
-  {
-    "content": "ScaleFade transition",
-    "id": "88f8c319-eb47-4866-8426-462f231193ba",
-    "type": "lvl3",
-    "url": "/docs/components/transitions#scalefade-transition",
-    "hierarchy": {
-      "lvl1": "Transitions",
-      "lvl2": "Fade transition",
-      "lvl3": "ScaleFade transition"
-    }
-  },
-  {
-    "content": "Slide transition",
-    "id": "456ca468-de73-4c8f-84af-4dbe82514be8",
-    "type": "lvl3",
-    "url": "/docs/components/transitions#slide-transition",
-    "hierarchy": {
-      "lvl1": "Transitions",
-      "lvl2": "ScaleFade transition",
-      "lvl3": "Slide transition"
-    }
-  },
-  {
-    "content": "Slide Fade transition",
-    "id": "e6053c5a-04c1-4e41-95e6-357e6a78845b",
-    "type": "lvl3",
-    "url": "/docs/components/transitions#slide-fade-transition",
-    "hierarchy": {
-      "lvl1": "Transitions",
-      "lvl2": "Slide transition",
-      "lvl3": "Slide Fade transition"
-    }
-  },
-  {
-    "content": "Collapse transition",
-    "id": "37b42c07-9804-458e-a5f8-97c8229a0816",
-    "type": "lvl3",
-    "url": "/docs/components/transitions#collapse-transition",
-    "hierarchy": {
-      "lvl1": "Transitions",
-      "lvl2": "Slide Fade transition",
-      "lvl3": "Collapse transition"
-    }
-  },
-  {
-    "content": "Changing the startingHeight",
-    "id": "341ea027-7917-43fa-8430-b11d6cb4b827",
-    "type": "lvl4",
-    "url": "/docs/components/transitions#changing-the-startingheight",
-    "hierarchy": {
-      "lvl1": "Transitions",
-      "lvl2": "Collapse transition",
-      "lvl3": null
-    }
-  },
-  {
-    "content": "Props",
-    "id": "dab80f80-9fb4-4c1a-a3f0-8bbc561ed18c",
-    "type": "lvl2",
-    "url": "/docs/components/transitions#props",
-    "hierarchy": { "lvl1": "Transitions", "lvl2": "Props", "lvl3": null }
-  },
-  {
-    "content": "Fade Props",
-    "id": "eeea9e91-2452-4c25-bc43-09b44e8bf0a3",
-    "type": "lvl3",
-    "url": "/docs/components/transitions#fade-props",
-    "hierarchy": {
-      "lvl1": "Transitions",
-      "lvl2": "Props",
-      "lvl3": "Fade Props"
-    }
-  },
-  {
-    "content": "ScaleFade Props",
-    "id": "d0b5862a-9493-4988-ae64-88579dee67db",
-    "type": "lvl3",
-    "url": "/docs/components/transitions#scalefade-props",
-    "hierarchy": {
-      "lvl1": "Transitions",
-      "lvl2": "Fade Props",
-      "lvl3": "ScaleFade Props"
-    }
-  },
-  {
-    "content": "Slide Props",
-    "id": "518f7480-518f-48bd-8f3f-e448225b2bed",
-    "type": "lvl3",
-    "url": "/docs/components/transitions#slide-props",
-    "hierarchy": {
-      "lvl1": "Transitions",
-      "lvl2": "ScaleFade Props",
-      "lvl3": "Slide Props"
-    }
-  },
-  {
-    "content": "SlideFade Props",
-    "id": "193b3ce5-0a33-439c-917d-3cfb560c5a10",
-    "type": "lvl3",
-    "url": "/docs/components/transitions#slidefade-props",
-    "hierarchy": {
-      "lvl1": "Transitions",
-      "lvl2": "Slide Props",
-      "lvl3": "SlideFade Props"
-    }
-  },
-  {
-    "content": "Collapse Props",
-    "id": "ebc61bb8-cc59-4e15-be16-54ab342b43b2",
-    "type": "lvl3",
-    "url": "/docs/components/transitions#collapse-props",
-    "hierarchy": {
-      "lvl1": "Transitions",
-      "lvl2": "SlideFade Props",
-      "lvl3": "Collapse Props"
-    }
-  },
-  {
     "content": "Badge",
     "id": "c871e6b6-1974-4c3e-b119-dc8c83ccbb75",
     "type": "lvl1",
@@ -239,115 +90,6 @@
     "type": "lvl2",
     "url": "/docs/data-display/badge#props",
     "hierarchy": { "lvl1": "Badge", "lvl2": "Props", "lvl3": null }
-  },
-  {
-    "content": "Code",
-    "id": "40a62c27-9ebf-4497-85a0-e087a06b7d36",
-    "type": "lvl1",
-    "url": "/docs/data-display/code",
-    "hierarchy": { "lvl1": "Code" }
-  },
-  {
-    "content": "Import",
-    "id": "c0f60fdc-0d46-4577-94f6-8d9612d9c797",
-    "type": "lvl2",
-    "url": "/docs/data-display/code#import",
-    "hierarchy": { "lvl1": "Code", "lvl2": "Import", "lvl3": null }
-  },
-  {
-    "content": "Usage",
-    "id": "a44a005c-a3f3-4156-b875-23ded966b388",
-    "type": "lvl2",
-    "url": "/docs/data-display/code#usage",
-    "hierarchy": { "lvl1": "Code", "lvl2": "Usage", "lvl3": null }
-  },
-  {
-    "content": "Colors",
-    "id": "b06adc4a-e219-41b7-b8a2-3984601fa826",
-    "type": "lvl3",
-    "url": "/docs/data-display/code#colors",
-    "hierarchy": { "lvl1": "Code", "lvl2": "Usage", "lvl3": "Colors" }
-  },
-  {
-    "content": "Props",
-    "id": "5bd7c021-2e84-4411-a648-c0e23bbe144e",
-    "type": "lvl2",
-    "url": "/docs/data-display/code#props",
-    "hierarchy": { "lvl1": "Code", "lvl2": "Props", "lvl3": null }
-  },
-  {
-    "content": "Divider",
-    "id": "3921c31e-6497-4a0c-b90a-ab44daaac2b5",
-    "type": "lvl1",
-    "url": "/docs/data-display/divider",
-    "hierarchy": { "lvl1": "Divider" }
-  },
-  {
-    "content": "Import",
-    "id": "96a312fe-b613-43f8-878e-29331e1d5ebe",
-    "type": "lvl2",
-    "url": "/docs/data-display/divider#import",
-    "hierarchy": { "lvl1": "Divider", "lvl2": "Import", "lvl3": null }
-  },
-  {
-    "content": "Usage",
-    "id": "950beab9-be7e-4f77-824e-1270ea5cc373",
-    "type": "lvl2",
-    "url": "/docs/data-display/divider#usage",
-    "hierarchy": { "lvl1": "Divider", "lvl2": "Usage", "lvl3": null }
-  },
-  {
-    "content": "Divider Orientation",
-    "id": "551823b5-1ed5-42b1-ae8b-bd25c6409d6a",
-    "type": "lvl3",
-    "url": "/docs/data-display/divider#divider-orientation",
-    "hierarchy": {
-      "lvl1": "Divider",
-      "lvl2": "Usage",
-      "lvl3": "Divider Orientation"
-    }
-  },
-  {
-    "content": "Composition",
-    "id": "a5e38105-f92a-44f2-a698-4af77c37b0c7",
-    "type": "lvl2",
-    "url": "/docs/data-display/divider#composition",
-    "hierarchy": { "lvl1": "Divider", "lvl2": "Composition", "lvl3": null }
-  },
-  {
-    "content": "Props",
-    "id": "06054791-cbe4-450a-87e1-ad3e10508681",
-    "type": "lvl2",
-    "url": "/docs/data-display/divider#props",
-    "hierarchy": { "lvl1": "Divider", "lvl2": "Props", "lvl3": null }
-  },
-  {
-    "content": "Keyboard Key",
-    "id": "308939e8-7589-4617-ade7-57a0a02ecd04",
-    "type": "lvl1",
-    "url": "/docs/data-display/kbd",
-    "hierarchy": { "lvl1": "Keyboard Key" }
-  },
-  {
-    "content": "Import",
-    "id": "f1646333-3191-4dc9-8ad9-522a0e1b9b62",
-    "type": "lvl2",
-    "url": "/docs/data-display/kbd#import",
-    "hierarchy": { "lvl1": "Keyboard Key", "lvl2": "Import", "lvl3": null }
-  },
-  {
-    "content": "Guideline",
-    "id": "8f8c06b2-41d8-4049-9ddc-e66f08e8a921",
-    "type": "lvl2",
-    "url": "/docs/data-display/kbd#guideline",
-    "hierarchy": { "lvl1": "Keyboard Key", "lvl2": "Guideline", "lvl3": null }
-  },
-  {
-    "content": "Modifier",
-    "id": "71a5eafc-282a-482a-815d-08ef1778b12a",
-    "type": "lvl2",
-    "url": "/docs/data-display/kbd#modifier",
-    "hierarchy": { "lvl1": "Keyboard Key", "lvl2": "Modifier", "lvl3": null }
   },
   {
     "content": "List",
@@ -538,613 +280,6 @@
     "hierarchy": { "lvl1": "Table", "lvl2": "Th", "lvl3": "TableCaption" }
   },
   {
-    "content": "Tag",
-    "id": "facf559a-61f1-4ae3-8d55-a9d348de6989",
-    "type": "lvl1",
-    "url": "/docs/data-display/tag",
-    "hierarchy": { "lvl1": "Tag" }
-  },
-  {
-    "content": "Import",
-    "id": "16db82b7-e2c6-460e-9412-12d066d309ad",
-    "type": "lvl2",
-    "url": "/docs/data-display/tag#import",
-    "hierarchy": { "lvl1": "Tag", "lvl2": "Import", "lvl3": null }
-  },
-  {
-    "content": "Usage",
-    "id": "904175ba-de40-421d-b051-499d7a326c91",
-    "type": "lvl2",
-    "url": "/docs/data-display/tag#usage",
-    "hierarchy": { "lvl1": "Tag", "lvl2": "Usage", "lvl3": null }
-  },
-  {
-    "content": "With left icon",
-    "id": "729bf7f6-3201-45cd-b1cb-2a6ca1902f3b",
-    "type": "lvl2",
-    "url": "/docs/data-display/tag#with-left-icon",
-    "hierarchy": { "lvl1": "Tag", "lvl2": "With left icon", "lvl3": null }
-  },
-  {
-    "content": "With right icon",
-    "id": "a728b6a2-8608-4d6b-9b12-3e1a203e9def",
-    "type": "lvl2",
-    "url": "/docs/data-display/tag#with-right-icon",
-    "hierarchy": { "lvl1": "Tag", "lvl2": "With right icon", "lvl3": null }
-  },
-  {
-    "content": "With close button",
-    "id": "d12b519d-2f2b-45f6-8d2d-2bc0ccd354b8",
-    "type": "lvl2",
-    "url": "/docs/data-display/tag#with-close-button",
-    "hierarchy": { "lvl1": "Tag", "lvl2": "With close button", "lvl3": null }
-  },
-  {
-    "content": "With custom element",
-    "id": "d8dd8eae-86bd-43fd-8609-dc6c50abc1ee",
-    "type": "lvl2",
-    "url": "/docs/data-display/tag#with-custom-element",
-    "hierarchy": { "lvl1": "Tag", "lvl2": "With custom element", "lvl3": null }
-  },
-  {
-    "content": "Props",
-    "id": "c8c020df-279b-440b-9c78-1ef0f0b7be4b",
-    "type": "lvl2",
-    "url": "/docs/data-display/tag#props",
-    "hierarchy": { "lvl1": "Tag", "lvl2": "Props", "lvl3": null }
-  },
-  {
-    "content": "Accordion",
-    "id": "554cf46a-b9ed-4f79-a903-f190ed454db0",
-    "type": "lvl1",
-    "url": "/docs/disclosure/accordion",
-    "hierarchy": { "lvl1": "Accordion" }
-  },
-  {
-    "content": "Import",
-    "id": "1ddbc6c4-4e08-49b3-acaa-99c8a73fd20e",
-    "type": "lvl2",
-    "url": "/docs/disclosure/accordion#import",
-    "hierarchy": { "lvl1": "Accordion", "lvl2": "Import", "lvl3": null }
-  },
-  {
-    "content": "Usage",
-    "id": "b1ea57f3-8a47-4b5c-a754-67f722936f44",
-    "type": "lvl2",
-    "url": "/docs/disclosure/accordion#usage",
-    "hierarchy": { "lvl1": "Accordion", "lvl2": "Usage", "lvl3": null }
-  },
-  {
-    "content": "Expand multiple items at once",
-    "id": "b0140c1e-b128-417d-9b7a-4f87306d4e2f",
-    "type": "lvl3",
-    "url": "/docs/disclosure/accordion#expand-multiple-items-at-once",
-    "hierarchy": {
-      "lvl1": "Accordion",
-      "lvl2": "Usage",
-      "lvl3": "Expand multiple items at once"
-    }
-  },
-  {
-    "content": "Toggle each accordion item",
-    "id": "14481631-a008-4df2-984e-52d38a4db6c6",
-    "type": "lvl3",
-    "url": "/docs/disclosure/accordion#toggle-each-accordion-item",
-    "hierarchy": {
-      "lvl1": "Accordion",
-      "lvl2": "Expand multiple items at once",
-      "lvl3": "Toggle each accordion item"
-    }
-  },
-  {
-    "content": "Styling the expanded state",
-    "id": "41bdc98e-678f-41e5-8973-5212aef4c125",
-    "type": "lvl3",
-    "url": "/docs/disclosure/accordion#styling-the-expanded-state",
-    "hierarchy": {
-      "lvl1": "Accordion",
-      "lvl2": "Toggle each accordion item",
-      "lvl3": "Styling the expanded state"
-    }
-  },
-  {
-    "content": "Accessing the internal state",
-    "id": "4afd47ed-2873-4ad7-9b3c-a3da101f456c",
-    "type": "lvl3",
-    "url": "/docs/disclosure/accordion#accessing-the-internal-state",
-    "hierarchy": {
-      "lvl1": "Accordion",
-      "lvl2": "Styling the expanded state",
-      "lvl3": "Accessing the internal state"
-    }
-  },
-  {
-    "content": "Accessibility",
-    "id": "d71ea016-bb4e-4c15-b97b-77dda37c5f57",
-    "type": "lvl2",
-    "url": "/docs/disclosure/accordion#accessibility",
-    "hierarchy": { "lvl1": "Accordion", "lvl2": "Accessibility", "lvl3": null }
-  },
-  {
-    "content": "Props",
-    "id": "3be3c638-09c6-4264-9434-3720c730b962",
-    "type": "lvl2",
-    "url": "/docs/disclosure/accordion#props",
-    "hierarchy": { "lvl1": "Accordion", "lvl2": "Props", "lvl3": null }
-  },
-  {
-    "content": "Accordion Props",
-    "id": "ba1a9a01-12cf-4e0f-a92c-a699174e9ba1",
-    "type": "lvl3",
-    "url": "/docs/disclosure/accordion#accordion-props",
-    "hierarchy": {
-      "lvl1": "Accordion",
-      "lvl2": "Props",
-      "lvl3": "Accordion Props"
-    }
-  },
-  {
-    "content": "AccordionItem Props",
-    "id": "15043c9d-b664-4755-ad96-f02592a17ea4",
-    "type": "lvl3",
-    "url": "/docs/disclosure/accordion#accordionitem-props",
-    "hierarchy": {
-      "lvl1": "Accordion",
-      "lvl2": "Accordion Props",
-      "lvl3": "AccordionItem Props"
-    }
-  },
-  {
-    "content": "AccordionButton Props",
-    "id": "3149f25c-0c7a-40d6-8809-8db2fb501a6d",
-    "type": "lvl3",
-    "url": "/docs/disclosure/accordion#accordionbutton-props",
-    "hierarchy": {
-      "lvl1": "Accordion",
-      "lvl2": "AccordionItem Props",
-      "lvl3": "AccordionButton Props"
-    }
-  },
-  {
-    "content": "AccordionPanel Props",
-    "id": "f76cc13e-eb35-4877-b38a-345990043365",
-    "type": "lvl3",
-    "url": "/docs/disclosure/accordion#accordionpanel-props",
-    "hierarchy": {
-      "lvl1": "Accordion",
-      "lvl2": "AccordionButton Props",
-      "lvl3": "AccordionPanel Props"
-    }
-  },
-  {
-    "content": "Tabs",
-    "id": "f287835b-2474-4adc-aed1-236991c6b096",
-    "type": "lvl1",
-    "url": "/docs/disclosure/tabs",
-    "hierarchy": { "lvl1": "Tabs" }
-  },
-  {
-    "content": "Import",
-    "id": "6562473a-0129-4a0b-8117-0899db308aa8",
-    "type": "lvl2",
-    "url": "/docs/disclosure/tabs#import",
-    "hierarchy": { "lvl1": "Tabs", "lvl2": "Import", "lvl3": null }
-  },
-  {
-    "content": "Usage",
-    "id": "e1d051e8-256a-452d-b5d6-eeb0c4179e5e",
-    "type": "lvl2",
-    "url": "/docs/disclosure/tabs#usage",
-    "hierarchy": { "lvl1": "Tabs", "lvl2": "Usage", "lvl3": null }
-  },
-  {
-    "content": "Tab variants and color",
-    "id": "a7fa4c8e-c2ca-4f91-bb09-871cd0eb0c96",
-    "type": "lvl3",
-    "url": "/docs/disclosure/tabs#tab-variants-and-color",
-    "hierarchy": {
-      "lvl1": "Tabs",
-      "lvl2": "Usage",
-      "lvl3": "Tab variants and color"
-    }
-  },
-  {
-    "content": "Tab sizes",
-    "id": "876a6596-18c0-47a1-b8ad-3e0c186fdcf6",
-    "type": "lvl3",
-    "url": "/docs/disclosure/tabs#tab-sizes",
-    "hierarchy": {
-      "lvl1": "Tabs",
-      "lvl2": "Tab variants and color",
-      "lvl3": "Tab sizes"
-    }
-  },
-  {
-    "content": "Changing the tabs alignment",
-    "id": "ab626f37-d751-4843-a66f-847637774aef",
-    "type": "lvl3",
-    "url": "/docs/disclosure/tabs#changing-the-tabs-alignment",
-    "hierarchy": {
-      "lvl1": "Tabs",
-      "lvl2": "Tab sizes",
-      "lvl3": "Changing the tabs alignment"
-    }
-  },
-  {
-    "content": "Fitted Tabs",
-    "id": "a0136c61-0589-45dd-9047-e58c44993515",
-    "type": "lvl3",
-    "url": "/docs/disclosure/tabs#fitted-tabs",
-    "hierarchy": {
-      "lvl1": "Tabs",
-      "lvl2": "Changing the tabs alignment",
-      "lvl3": "Fitted Tabs"
-    }
-  },
-  {
-    "content": "Styling the tab states via props",
-    "id": "e22f5f9c-1b25-4e24-98bb-9ae6390a9ecc",
-    "type": "lvl3",
-    "url": "/docs/disclosure/tabs#styling-the-tab-states-via-props",
-    "hierarchy": {
-      "lvl1": "Tabs",
-      "lvl2": "Fitted Tabs",
-      "lvl3": "Styling the tab states via props"
-    }
-  },
-  {
-    "content": "Tabs onChange",
-    "id": "02e9607f-46f0-4469-84a9-050ae864f95c",
-    "type": "lvl3",
-    "url": "/docs/disclosure/tabs#tabs-onchange",
-    "hierarchy": {
-      "lvl1": "Tabs",
-      "lvl2": "Styling the tab states via props",
-      "lvl3": "Tabs onChange"
-    }
-  },
-  {
-    "content": "Make a tab initially active",
-    "id": "9c340eec-2239-40ff-a557-e72f20400796",
-    "type": "lvl3",
-    "url": "/docs/disclosure/tabs#make-a-tab-initially-active",
-    "hierarchy": {
-      "lvl1": "Tabs",
-      "lvl2": "Tabs onChange",
-      "lvl3": "Make a tab initially active"
-    }
-  },
-  {
-    "content": "Make a Tab disabled",
-    "id": "b235e177-6958-4a48-800c-b6ccac5e705f",
-    "type": "lvl3",
-    "url": "/docs/disclosure/tabs#make-a-tab-disabled",
-    "hierarchy": {
-      "lvl1": "Tabs",
-      "lvl2": "Make a tab initially active",
-      "lvl3": "Make a Tab disabled"
-    }
-  },
-  {
-    "content": "Tabs with manual activation",
-    "id": "2bee1b40-4658-4535-b22c-aaa979a74197",
-    "type": "lvl3",
-    "url": "/docs/disclosure/tabs#tabs-with-manual-activation",
-    "hierarchy": {
-      "lvl1": "Tabs",
-      "lvl2": "Make a Tab disabled",
-      "lvl3": "Tabs with manual activation"
-    }
-  },
-  {
-    "content": "Lazily mounting tab panels",
-    "id": "0233cca2-fc14-44b7-862d-2c758fcf8e7b",
-    "type": "lvl3",
-    "url": "/docs/disclosure/tabs#lazily-mounting-tab-panels",
-    "hierarchy": {
-      "lvl1": "Tabs",
-      "lvl2": "Tabs with manual activation",
-      "lvl3": "Lazily mounting tab panels"
-    }
-  },
-  {
-    "content": "Controlled Tabs",
-    "id": "30952dd7-8f73-49e7-9b0d-3683fcab7598",
-    "type": "lvl3",
-    "url": "/docs/disclosure/tabs#controlled-tabs",
-    "hierarchy": {
-      "lvl1": "Tabs",
-      "lvl2": "Lazily mounting tab panels",
-      "lvl3": "Controlled Tabs"
-    }
-  },
-  {
-    "content": "Creating custom tab components",
-    "id": "c7bf8283-9e63-45b2-b553-6e1b9524af7a",
-    "type": "lvl3",
-    "url": "/docs/disclosure/tabs#creating-custom-tab-components",
-    "hierarchy": {
-      "lvl1": "Tabs",
-      "lvl2": "Controlled Tabs",
-      "lvl3": "Creating custom tab components"
-    }
-  },
-  {
-    "content": "DataTabs",
-    "id": "9b63cfa0-96e9-4e19-81a8-63e3f8f706e4",
-    "type": "lvl3",
-    "url": "/docs/disclosure/tabs#datatabs",
-    "hierarchy": {
-      "lvl1": "Tabs",
-      "lvl2": "Creating custom tab components",
-      "lvl3": "DataTabs"
-    }
-  },
-  {
-    "content": "Accessibility",
-    "id": "c687328b-48ce-47f7-979f-b9fdd650eb3d",
-    "type": "lvl2",
-    "url": "/docs/disclosure/tabs#accessibility",
-    "hierarchy": { "lvl1": "Tabs", "lvl2": "Accessibility", "lvl3": null }
-  },
-  {
-    "content": "Keyboard",
-    "id": "c55cb084-3864-448e-b5f8-2a0b957414f9",
-    "type": "lvl3",
-    "url": "/docs/disclosure/tabs#keyboard",
-    "hierarchy": { "lvl1": "Tabs", "lvl2": "Accessibility", "lvl3": "Keyboard" }
-  },
-  {
-    "content": "ARIA roles",
-    "id": "c61b259f-614e-437d-a710-d0c39c976228",
-    "type": "lvl3",
-    "url": "/docs/disclosure/tabs#aria-roles",
-    "hierarchy": { "lvl1": "Tabs", "lvl2": "Keyboard", "lvl3": "ARIA roles" }
-  },
-  {
-    "content": "Props",
-    "id": "0787a513-2222-45a6-9c6f-60d1614ec1da",
-    "type": "lvl2",
-    "url": "/docs/disclosure/tabs#props",
-    "hierarchy": { "lvl1": "Tabs", "lvl2": "Props", "lvl3": null }
-  },
-  {
-    "content": "Tabs Props",
-    "id": "3e2897c0-2d72-4fe3-a8c5-0e2c0a4cfb98",
-    "type": "lvl3",
-    "url": "/docs/disclosure/tabs#tabs-props",
-    "hierarchy": { "lvl1": "Tabs", "lvl2": "Props", "lvl3": "Tabs Props" }
-  },
-  {
-    "content": "Tab Props",
-    "id": "429caf7b-e63f-4495-94a7-78bacc15bce5",
-    "type": "lvl3",
-    "url": "/docs/disclosure/tabs#tab-props",
-    "hierarchy": { "lvl1": "Tabs", "lvl2": "Tabs Props", "lvl3": "Tab Props" }
-  },
-  {
-    "content": "VisuallyHidden",
-    "id": "9a332f6f-66cb-44fb-babb-f92aca4ce6de",
-    "type": "lvl1",
-    "url": "/docs/disclosure/visually-hidden",
-    "hierarchy": { "lvl1": "VisuallyHidden" }
-  },
-  {
-    "content": "Import",
-    "id": "6b2662ee-5250-48c0-8776-2b3571b3726c",
-    "type": "lvl2",
-    "url": "/docs/disclosure/visually-hidden#import",
-    "hierarchy": { "lvl1": "VisuallyHidden", "lvl2": "Import", "lvl3": null }
-  },
-  {
-    "content": "Usage",
-    "id": "806d7532-8fde-4e8d-9b02-28faf3e7b22d",
-    "type": "lvl2",
-    "url": "/docs/disclosure/visually-hidden#usage",
-    "hierarchy": { "lvl1": "VisuallyHidden", "lvl2": "Usage", "lvl3": null }
-  },
-  {
-    "content": "Accessibility",
-    "id": "f43760f1-fb2a-41e0-8ae4-1037983292c4",
-    "type": "lvl2",
-    "url": "/docs/disclosure/visually-hidden#accessibility",
-    "hierarchy": {
-      "lvl1": "VisuallyHidden",
-      "lvl2": "Accessibility",
-      "lvl3": null
-    }
-  },
-  {
-    "content": "Props",
-    "id": "b01af972-dad9-4915-9249-89a05d12858c",
-    "type": "lvl2",
-    "url": "/docs/disclosure/visually-hidden#props",
-    "hierarchy": { "lvl1": "VisuallyHidden", "lvl2": "Props", "lvl3": null }
-  },
-  {
-    "content": "Alert",
-    "id": "7fb10af6-09c1-4844-bfe3-1242ec257885",
-    "type": "lvl1",
-    "url": "/docs/feedback/alert",
-    "hierarchy": { "lvl1": "Alert" }
-  },
-  {
-    "content": "Import",
-    "id": "abb3f30c-2ae9-4d1f-9a81-9df8a1aef3c0",
-    "type": "lvl2",
-    "url": "/docs/feedback/alert#import",
-    "hierarchy": { "lvl1": "Alert", "lvl2": "Import", "lvl3": null }
-  },
-  {
-    "content": "Usage",
-    "id": "ac1c6610-3e8a-4283-b043-039c95cb0ebe",
-    "type": "lvl2",
-    "url": "/docs/feedback/alert#usage",
-    "hierarchy": { "lvl1": "Alert", "lvl2": "Usage", "lvl3": null }
-  },
-  {
-    "content": "Status",
-    "id": "1c0c73a4-63f4-4ab4-9a03-ea51e3731936",
-    "type": "lvl3",
-    "url": "/docs/feedback/alert#status",
-    "hierarchy": { "lvl1": "Alert", "lvl2": "Usage", "lvl3": "Status" }
-  },
-  {
-    "content": "Variant",
-    "id": "66671c11-f813-4df2-9f19-bb364cf55330",
-    "type": "lvl3",
-    "url": "/docs/feedback/alert#variant",
-    "hierarchy": { "lvl1": "Alert", "lvl2": "Status", "lvl3": "Variant" }
-  },
-  {
-    "content": "Composition",
-    "id": "482207df-54dd-4db8-a234-06507cb97a7b",
-    "type": "lvl3",
-    "url": "/docs/feedback/alert#composition",
-    "hierarchy": { "lvl1": "Alert", "lvl2": "Variant", "lvl3": "Composition" }
-  },
-  {
-    "content": "Props",
-    "id": "ce29434d-6ca5-4678-8f74-c426d5c64f81",
-    "type": "lvl2",
-    "url": "/docs/feedback/alert#props",
-    "hierarchy": { "lvl1": "Alert", "lvl2": "Props", "lvl3": null }
-  },
-  {
-    "content": "Alert Props",
-    "id": "b6894dfd-44d0-4946-a2dd-98c5d0cd3458",
-    "type": "lvl3",
-    "url": "/docs/feedback/alert#alert-props",
-    "hierarchy": { "lvl1": "Alert", "lvl2": "Props", "lvl3": "Alert Props" }
-  },
-  {
-    "content": "AlertIcon Props",
-    "id": "0d205d29-8bab-489f-aacc-6e38f485a999",
-    "type": "lvl3",
-    "url": "/docs/feedback/alert#alerticon-props",
-    "hierarchy": {
-      "lvl1": "Alert",
-      "lvl2": "Alert Props",
-      "lvl3": "AlertIcon Props"
-    }
-  },
-  {
-    "content": "AlertTitle Props",
-    "id": "471267d7-6abe-479d-91c4-62c8b425e80e",
-    "type": "lvl3",
-    "url": "/docs/feedback/alert#alerttitle-props",
-    "hierarchy": {
-      "lvl1": "Alert",
-      "lvl2": "AlertIcon Props",
-      "lvl3": "AlertTitle Props"
-    }
-  },
-  {
-    "content": "AlertDescription Props",
-    "id": "b5830295-5f9f-4e7c-859d-aa09f9b6c375",
-    "type": "lvl3",
-    "url": "/docs/feedback/alert#alertdescription-props",
-    "hierarchy": {
-      "lvl1": "Alert",
-      "lvl2": "AlertTitle Props",
-      "lvl3": "AlertDescription Props"
-    }
-  },
-  {
-    "content": "Circular Progress",
-    "id": "f14ae52c-75c2-4c0d-8196-dffc79cd7bf2",
-    "type": "lvl1",
-    "url": "/docs/feedback/circular-progress",
-    "hierarchy": { "lvl1": "Circular Progress" }
-  },
-  {
-    "content": "Import",
-    "id": "35d9026b-e712-48a1-90ea-800c92e3a7ed",
-    "type": "lvl2",
-    "url": "/docs/feedback/circular-progress#import",
-    "hierarchy": { "lvl1": "Circular Progress", "lvl2": "Import", "lvl3": null }
-  },
-  {
-    "content": "Usage",
-    "id": "0f788348-4170-414d-9539-9a9cb0add283",
-    "type": "lvl2",
-    "url": "/docs/feedback/circular-progress#usage",
-    "hierarchy": { "lvl1": "Circular Progress", "lvl2": "Usage", "lvl3": null }
-  },
-  {
-    "content": "Changing the size",
-    "id": "3829c856-a81c-4087-ac7e-cb3b77dadd90",
-    "type": "lvl3",
-    "url": "/docs/feedback/circular-progress#changing-the-size",
-    "hierarchy": {
-      "lvl1": "Circular Progress",
-      "lvl2": "Usage",
-      "lvl3": "Changing the size"
-    }
-  },
-  {
-    "content": "Changing the thickness",
-    "id": "20a939bd-ad5e-44fd-bfa2-db27cd648664",
-    "type": "lvl3",
-    "url": "/docs/feedback/circular-progress#changing-the-thickness",
-    "hierarchy": {
-      "lvl1": "Circular Progress",
-      "lvl2": "Changing the size",
-      "lvl3": "Changing the thickness"
-    }
-  },
-  {
-    "content": "Changing the color",
-    "id": "de3c8352-f795-48d2-9fce-b99a54327fb6",
-    "type": "lvl3",
-    "url": "/docs/feedback/circular-progress#changing-the-color",
-    "hierarchy": {
-      "lvl1": "Circular Progress",
-      "lvl2": "Changing the thickness",
-      "lvl3": "Changing the color"
-    }
-  },
-  {
-    "content": "Adding label",
-    "id": "e425366c-f504-4ca9-b40c-a95c39dae8b3",
-    "type": "lvl3",
-    "url": "/docs/feedback/circular-progress#adding-label",
-    "hierarchy": {
-      "lvl1": "Circular Progress",
-      "lvl2": "Changing the color",
-      "lvl3": "Adding label"
-    }
-  },
-  {
-    "content": "Indeterminate Progress",
-    "id": "aebf9e48-066a-482d-a958-4faae5df17c0",
-    "type": "lvl3",
-    "url": "/docs/feedback/circular-progress#indeterminate-progress",
-    "hierarchy": {
-      "lvl1": "Circular Progress",
-      "lvl2": "Adding label",
-      "lvl3": "Indeterminate Progress"
-    }
-  },
-  {
-    "content": "Accessibility",
-    "id": "2f76de60-0c0a-4c95-8767-3d36e062205a",
-    "type": "lvl3",
-    "url": "/docs/feedback/circular-progress#accessibility",
-    "hierarchy": {
-      "lvl1": "Circular Progress",
-      "lvl2": "Indeterminate Progress",
-      "lvl3": "Accessibility"
-    }
-  },
-  {
-    "content": "Props",
-    "id": "1e56615a-7fcb-47f0-ba73-87d841ef8744",
-    "type": "lvl2",
-    "url": "/docs/feedback/circular-progress#props",
-    "hierarchy": { "lvl1": "Circular Progress", "lvl2": "Props", "lvl3": null }
-  },
-  {
     "content": "Progress",
     "id": "219be595-eeb9-4023-98b7-bdc9e3794a7f",
     "type": "lvl1",
@@ -1222,205 +357,6 @@
     "type": "lvl2",
     "url": "/docs/feedback/progress#props",
     "hierarchy": { "lvl1": "Progress", "lvl2": "Props", "lvl3": null }
-  },
-  {
-    "content": "Skeleton",
-    "id": "22577ec3-8505-48b0-8daa-234e9418d025",
-    "type": "lvl1",
-    "url": "/docs/feedback/skeleton",
-    "hierarchy": { "lvl1": "Skeleton" }
-  },
-  {
-    "content": "Import",
-    "id": "5dc1c79f-280d-412d-9818-6010d82e2fc3",
-    "type": "lvl2",
-    "url": "/docs/feedback/skeleton#import",
-    "hierarchy": { "lvl1": "Skeleton", "lvl2": "Import", "lvl3": null }
-  },
-  {
-    "content": "Usage",
-    "id": "ea0d9d14-57a2-46b2-8113-efa10a01cb4d",
-    "type": "lvl2",
-    "url": "/docs/feedback/skeleton#usage",
-    "hierarchy": { "lvl1": "Skeleton", "lvl2": "Usage", "lvl3": null }
-  },
-  {
-    "content": "Circle and Text Skeleton",
-    "id": "d3395dfa-e164-4564-b19e-1f01b9751041",
-    "type": "lvl3",
-    "url": "/docs/feedback/skeleton#circle-and-text-skeleton",
-    "hierarchy": {
-      "lvl1": "Skeleton",
-      "lvl2": "Usage",
-      "lvl3": "Circle and Text Skeleton"
-    }
-  },
-  {
-    "content": "Skeleton color",
-    "id": "436a4ddf-c471-40d9-91fa-574a8a4a5aba",
-    "type": "lvl3",
-    "url": "/docs/feedback/skeleton#skeleton-color",
-    "hierarchy": {
-      "lvl1": "Skeleton",
-      "lvl2": "Circle and Text Skeleton",
-      "lvl3": "Skeleton color"
-    }
-  },
-  {
-    "content": "Skipping the skeleton when content is loaded",
-    "id": "abe47841-215e-43a2-9c07-e930413de654",
-    "type": "lvl3",
-    "url": "/docs/feedback/skeleton#skipping-the-skeleton-when-content-is-loaded",
-    "hierarchy": {
-      "lvl1": "Skeleton",
-      "lvl2": "Skeleton color",
-      "lvl3": "Skipping the skeleton when content is loaded"
-    }
-  },
-  {
-    "content": "Props",
-    "id": "afb15ecf-e10b-4be7-8ba7-f2c8465298c0",
-    "type": "lvl2",
-    "url": "/docs/feedback/skeleton#props",
-    "hierarchy": { "lvl1": "Skeleton", "lvl2": "Props", "lvl3": null }
-  },
-  {
-    "content": "Spinner",
-    "id": "ac742c1b-5646-4891-aaf1-f6d522566e16",
-    "type": "lvl1",
-    "url": "/docs/feedback/spinner",
-    "hierarchy": { "lvl1": "Spinner" }
-  },
-  {
-    "content": "Import",
-    "id": "4ad58820-2c78-45be-80be-85453fea1e0a",
-    "type": "lvl2",
-    "url": "/docs/feedback/spinner#import",
-    "hierarchy": { "lvl1": "Spinner", "lvl2": "Import", "lvl3": null }
-  },
-  {
-    "content": "Usage",
-    "id": "759e53f5-602b-4091-a7ba-2142eada4908",
-    "type": "lvl2",
-    "url": "/docs/feedback/spinner#usage",
-    "hierarchy": { "lvl1": "Spinner", "lvl2": "Usage", "lvl3": null }
-  },
-  {
-    "content": "Spinner with Color",
-    "id": "19ab13be-9de2-442c-bc95-9322f7ddf84c",
-    "type": "lvl3",
-    "url": "/docs/feedback/spinner#spinner-with-color",
-    "hierarchy": {
-      "lvl1": "Spinner",
-      "lvl2": "Usage",
-      "lvl3": "Spinner with Color"
-    }
-  },
-  {
-    "content": "Spinner with different size",
-    "id": "89ae5abd-edae-452c-a986-58abc81a71a8",
-    "type": "lvl3",
-    "url": "/docs/feedback/spinner#spinner-with-different-size",
-    "hierarchy": {
-      "lvl1": "Spinner",
-      "lvl2": "Spinner with Color",
-      "lvl3": "Spinner with different size"
-    }
-  },
-  {
-    "content": "Spinner with empty area color",
-    "id": "5384fe9c-0452-4587-9ae7-2c73ead9892e",
-    "type": "lvl3",
-    "url": "/docs/feedback/spinner#spinner-with-empty-area-color",
-    "hierarchy": {
-      "lvl1": "Spinner",
-      "lvl2": "Spinner with different size",
-      "lvl3": "Spinner with empty area color"
-    }
-  },
-  {
-    "content": "Props",
-    "id": "727a63c8-f49e-40f2-91af-a38031960887",
-    "type": "lvl2",
-    "url": "/docs/feedback/spinner#props",
-    "hierarchy": { "lvl1": "Spinner", "lvl2": "Props", "lvl3": null }
-  },
-  {
-    "content": "Toast",
-    "id": "d40c93bd-ffd5-477c-9463-3cf2c55efb8a",
-    "type": "lvl1",
-    "url": "/docs/feedback/toast",
-    "hierarchy": { "lvl1": "Toast" }
-  },
-  {
-    "content": "Import",
-    "id": "e6b89a70-04bf-4ae6-aaef-08a13a71c896",
-    "type": "lvl2",
-    "url": "/docs/feedback/toast#import",
-    "hierarchy": { "lvl1": "Toast", "lvl2": "Import", "lvl3": null }
-  },
-  {
-    "content": "Usage",
-    "id": "5a87e4fc-c3fc-426d-a2c0-83684af646f7",
-    "type": "lvl2",
-    "url": "/docs/feedback/toast#usage",
-    "hierarchy": { "lvl1": "Toast", "lvl2": "Usage", "lvl3": null }
-  },
-  {
-    "content": "Custom component",
-    "id": "7b32ec22-b6a3-4083-950f-77486aec168b",
-    "type": "lvl2",
-    "url": "/docs/feedback/toast#custom-component",
-    "hierarchy": { "lvl1": "Toast", "lvl2": "Custom component", "lvl3": null }
-  },
-  {
-    "content": "Closing Toasts",
-    "id": "752d21e7-c4c9-4c13-88a8-4d3cb2f609b7",
-    "type": "lvl2",
-    "url": "/docs/feedback/toast#closing-toasts",
-    "hierarchy": { "lvl1": "Toast", "lvl2": "Closing Toasts", "lvl3": null }
-  },
-  {
-    "content": "Success",
-    "id": "4fded0a7-451e-4a24-968c-94c0f3451d72",
-    "type": "lvl2",
-    "url": "/docs/feedback/toast#success",
-    "hierarchy": { "lvl1": "Toast", "lvl2": "Success", "lvl3": null }
-  },
-  {
-    "content": "Warning",
-    "id": "3c8fd483-7df5-4729-81c6-fccc7b757250",
-    "type": "lvl2",
-    "url": "/docs/feedback/toast#warning",
-    "hierarchy": { "lvl1": "Toast", "lvl2": "Warning", "lvl3": null }
-  },
-  {
-    "content": "Error",
-    "id": "f2de11cc-5eb3-4865-bceb-921cba63d170",
-    "type": "lvl2",
-    "url": "/docs/feedback/toast#error",
-    "hierarchy": { "lvl1": "Toast", "lvl2": "Error", "lvl3": null }
-  },
-  {
-    "content": "Position",
-    "id": "b2df091d-c633-49f9-872e-995168011375",
-    "type": "lvl2",
-    "url": "/docs/feedback/toast#position",
-    "hierarchy": { "lvl1": "Toast", "lvl2": "Position", "lvl3": null }
-  },
-  {
-    "content": "Standalone",
-    "id": "2afb8cf7-94eb-4df3-ab8b-ee7f6a0a8931",
-    "type": "lvl2",
-    "url": "/docs/feedback/toast#standalone",
-    "hierarchy": { "lvl1": "Toast", "lvl2": "Standalone", "lvl3": null }
-  },
-  {
-    "content": "Props",
-    "id": "a711a9f4-2e36-449d-8d0c-6c3413cc85e0",
-    "type": "lvl2",
-    "url": "/docs/feedback/toast#props",
-    "hierarchy": { "lvl1": "Toast", "lvl2": "Props", "lvl3": null }
   },
   {
     "content": "Button",
@@ -1549,219 +485,6 @@
       "lvl1": "Button",
       "lvl2": "Button Props",
       "lvl3": "Button Group Props"
-    }
-  },
-  {
-    "content": "Checkbox",
-    "id": "8e4932ae-f730-4e07-bd03-74e00879de55",
-    "type": "lvl1",
-    "url": "/docs/form/checkbox",
-    "hierarchy": { "lvl1": "Checkbox" }
-  },
-  {
-    "content": "Import",
-    "id": "57d6c8c2-23fb-4f7e-b763-61561dfa277b",
-    "type": "lvl2",
-    "url": "/docs/form/checkbox#import",
-    "hierarchy": { "lvl1": "Checkbox", "lvl2": "Import", "lvl3": null }
-  },
-  {
-    "content": "Usage",
-    "id": "f3d8d33d-e1d6-4e00-9986-2cf7e2a74feb",
-    "type": "lvl2",
-    "url": "/docs/form/checkbox#usage",
-    "hierarchy": { "lvl1": "Checkbox", "lvl2": "Usage", "lvl3": null }
-  },
-  {
-    "content": "Disabled Checkbox",
-    "id": "6e4fbca6-7494-4626-9e3c-5613331e83a5",
-    "type": "lvl3",
-    "url": "/docs/form/checkbox#disabled-checkbox",
-    "hierarchy": {
-      "lvl1": "Checkbox",
-      "lvl2": "Usage",
-      "lvl3": "Disabled Checkbox"
-    }
-  },
-  {
-    "content": "Checkbox with custom color",
-    "id": "fca1e016-1f81-4545-9fc5-5b43a411ca40",
-    "type": "lvl3",
-    "url": "/docs/form/checkbox#checkbox-with-custom-color",
-    "hierarchy": {
-      "lvl1": "Checkbox",
-      "lvl2": "Disabled Checkbox",
-      "lvl3": "Checkbox with custom color"
-    }
-  },
-  {
-    "content": "Checkbox sizes",
-    "id": "d9e767b9-84d8-436a-8596-1cf7dac5e480",
-    "type": "lvl3",
-    "url": "/docs/form/checkbox#checkbox-sizes",
-    "hierarchy": {
-      "lvl1": "Checkbox",
-      "lvl2": "Checkbox with custom color",
-      "lvl3": "Checkbox sizes"
-    }
-  },
-  {
-    "content": "Invalid Checkbox",
-    "id": "425beffc-281b-40e1-966d-f3e6d6b723e7",
-    "type": "lvl3",
-    "url": "/docs/form/checkbox#invalid-checkbox",
-    "hierarchy": {
-      "lvl1": "Checkbox",
-      "lvl2": "Checkbox sizes",
-      "lvl3": "Invalid Checkbox"
-    }
-  },
-  {
-    "content": "Changing the spacing",
-    "id": "1fb2aeb2-0873-4149-a491-485d2c3ff894",
-    "type": "lvl3",
-    "url": "/docs/form/checkbox#changing-the-spacing",
-    "hierarchy": {
-      "lvl1": "Checkbox",
-      "lvl2": "Invalid Checkbox",
-      "lvl3": "Changing the spacing"
-    }
-  },
-  {
-    "content": "Changing the icon color and size",
-    "id": "5eb189b3-733b-4670-a4ef-cd2921d6e481",
-    "type": "lvl3",
-    "url": "/docs/form/checkbox#changing-the-icon-color-and-size",
-    "hierarchy": {
-      "lvl1": "Checkbox",
-      "lvl2": "Changing the spacing",
-      "lvl3": "Changing the icon color and size"
-    }
-  },
-  {
-    "content": "Indeterminate",
-    "id": "89aec5c1-40a6-4d3b-911c-a6618351c51e",
-    "type": "lvl3",
-    "url": "/docs/form/checkbox#indeterminate",
-    "hierarchy": {
-      "lvl1": "Checkbox",
-      "lvl2": "Changing the icon color and size",
-      "lvl3": "Indeterminate"
-    }
-  },
-  {
-    "content": "Icon",
-    "id": "66154af1-01c2-4bf6-9c49-f147a40e65de",
-    "type": "lvl3",
-    "url": "/docs/form/checkbox#icon",
-    "hierarchy": { "lvl1": "Checkbox", "lvl2": "Indeterminate", "lvl3": "Icon" }
-  },
-  {
-    "content": "CheckboxGroup",
-    "id": "4d7f904e-334e-4d42-a5e2-c1806ffb8b0c",
-    "type": "lvl3",
-    "url": "/docs/form/checkbox#checkboxgroup",
-    "hierarchy": { "lvl1": "Checkbox", "lvl2": "Icon", "lvl3": "CheckboxGroup" }
-  },
-  {
-    "content": "Hooks",
-    "id": "86f18eba-0b51-46b1-8402-bbc6e27efcf5",
-    "type": "lvl3",
-    "url": "/docs/form/checkbox#hooks",
-    "hierarchy": {
-      "lvl1": "Checkbox",
-      "lvl2": "CheckboxGroup",
-      "lvl3": "Hooks"
-    }
-  },
-  {
-    "content": "Props",
-    "id": "6fb5d997-921e-477d-a83a-8452881c9a4d",
-    "type": "lvl2",
-    "url": "/docs/form/checkbox#props",
-    "hierarchy": { "lvl1": "Checkbox", "lvl2": "Props", "lvl3": null }
-  },
-  {
-    "content": "Checkbox Props",
-    "id": "18616d47-ead8-47c4-8aa7-22e5defc6350",
-    "type": "lvl3",
-    "url": "/docs/form/checkbox#checkbox-props",
-    "hierarchy": {
-      "lvl1": "Checkbox",
-      "lvl2": "Props",
-      "lvl3": "Checkbox Props"
-    }
-  },
-  {
-    "content": "CheckboxGroup Props",
-    "id": "504a4d0a-7f07-4692-a7d9-9d943c32313c",
-    "type": "lvl3",
-    "url": "/docs/form/checkbox#checkboxgroup-props",
-    "hierarchy": {
-      "lvl1": "Checkbox",
-      "lvl2": "Checkbox Props",
-      "lvl3": "CheckboxGroup Props"
-    }
-  },
-  {
-    "content": "Shared Style Props",
-    "id": "f914204b-6c11-4afc-a8c4-c964b048f83d",
-    "type": "lvl4",
-    "url": "/docs/form/checkbox#shared-style-props",
-    "hierarchy": {
-      "lvl1": "Checkbox",
-      "lvl2": "CheckboxGroup Props",
-      "lvl3": null
-    }
-  },
-  {
-    "content": "Editable",
-    "id": "97448d6e-413c-47c9-aef4-fc7ed05b8567",
-    "type": "lvl1",
-    "url": "/docs/form/editable",
-    "hierarchy": { "lvl1": "Editable" }
-  },
-  {
-    "content": "Import",
-    "id": "22c57ade-0222-44cf-b1b9-9c865c2a6491",
-    "type": "lvl2",
-    "url": "/docs/form/editable#import",
-    "hierarchy": { "lvl1": "Editable", "lvl2": "Import", "lvl3": null }
-  },
-  {
-    "content": "Usage",
-    "id": "489a6207-2216-4fd7-ac78-9ae2debb5461",
-    "type": "lvl2",
-    "url": "/docs/form/editable#usage",
-    "hierarchy": { "lvl1": "Editable", "lvl2": "Usage", "lvl3": null }
-  },
-  {
-    "content": "With custom controls",
-    "id": "e94a22c1-a6cb-4408-bbb1-b3ecaa72d9eb",
-    "type": "lvl3",
-    "url": "/docs/form/editable#with-custom-controls",
-    "hierarchy": {
-      "lvl1": "Editable",
-      "lvl2": "Usage",
-      "lvl3": "With custom controls"
-    }
-  },
-  {
-    "content": "Props",
-    "id": "608f3275-4a4a-4671-bb09-5862a948d50d",
-    "type": "lvl2",
-    "url": "/docs/form/editable#props",
-    "hierarchy": { "lvl1": "Editable", "lvl2": "Props", "lvl3": null }
-  },
-  {
-    "content": "Editable Props",
-    "id": "da2bba85-9cef-4c0e-86be-8d0b51d602a2",
-    "type": "lvl3",
-    "url": "/docs/form/editable#editable-props",
-    "hierarchy": {
-      "lvl1": "Editable",
-      "lvl2": "Props",
-      "lvl3": "Editable Props"
     }
   },
   {
@@ -2036,359 +759,6 @@
     "hierarchy": { "lvl1": "Input", "lvl2": "Props", "lvl3": null }
   },
   {
-    "content": "Number Input",
-    "id": "b8ba1772-a3ec-4296-90eb-c1cad9297c52",
-    "type": "lvl1",
-    "url": "/docs/form/number-input",
-    "hierarchy": { "lvl1": "Number Input" }
-  },
-  {
-    "content": "Import",
-    "id": "de0568bc-1da3-4bda-a692-9ba27a804ddd",
-    "type": "lvl2",
-    "url": "/docs/form/number-input#import",
-    "hierarchy": { "lvl1": "Number Input", "lvl2": "Import", "lvl3": null }
-  },
-  {
-    "content": "Usage",
-    "id": "660ec6fe-44c4-4898-9943-b6b7114cbd1e",
-    "type": "lvl2",
-    "url": "/docs/form/number-input#usage",
-    "hierarchy": { "lvl1": "Number Input", "lvl2": "Usage", "lvl3": null }
-  },
-  {
-    "content": "Setting a minimum and maximum value",
-    "id": "614db3d2-9632-4766-b71b-2c2c815df919",
-    "type": "lvl3",
-    "url": "/docs/form/number-input#setting-a-minimum-and-maximum-value",
-    "hierarchy": {
-      "lvl1": "Number Input",
-      "lvl2": "Usage",
-      "lvl3": "Setting a minimum and maximum value"
-    }
-  },
-  {
-    "content": "Setting the step size",
-    "id": "984d2e07-a76a-4fdd-9b2c-8007f67440b2",
-    "type": "lvl3",
-    "url": "/docs/form/number-input#setting-the-step-size",
-    "hierarchy": {
-      "lvl1": "Number Input",
-      "lvl2": "Setting a minimum and maximum value",
-      "lvl3": "Setting the step size"
-    }
-  },
-  {
-    "content": "Adjusting the precision of the value",
-    "id": "d90cbd5a-8b13-4e02-bb9d-065189120a48",
-    "type": "lvl3",
-    "url": "/docs/form/number-input#adjusting-the-precision-of-the-value",
-    "hierarchy": {
-      "lvl1": "Number Input",
-      "lvl2": "Setting the step size",
-      "lvl3": "Adjusting the precision of the value"
-    }
-  },
-  {
-    "content": "Clamp value when user blurs the input",
-    "id": "2340d4a4-96dc-4afc-9678-a51c829863b4",
-    "type": "lvl3",
-    "url": "/docs/form/number-input#clamp-value-when-user-blurs-the-input",
-    "hierarchy": {
-      "lvl1": "Number Input",
-      "lvl2": "Adjusting the precision of the value",
-      "lvl3": "Clamp value when user blurs the input"
-    }
-  },
-  {
-    "content": "Allowing out of range values",
-    "id": "e5bcf39e-f050-4991-81d9-2a4e249cc462",
-    "type": "lvl3",
-    "url": "/docs/form/number-input#allowing-out-of-range-values",
-    "hierarchy": {
-      "lvl1": "Number Input",
-      "lvl2": "Clamp value when user blurs the input",
-      "lvl3": "Allowing out of range values"
-    }
-  },
-  {
-    "content": "Formatting and Parsing the value",
-    "id": "fcfef01d-791b-4fcb-b5f7-1e431610bc65",
-    "type": "lvl3",
-    "url": "/docs/form/number-input#formatting-and-parsing-the-value",
-    "hierarchy": {
-      "lvl1": "Number Input",
-      "lvl2": "Allowing out of range values",
-      "lvl3": "Formatting and Parsing the value"
-    }
-  },
-  {
-    "content": "Changing the size of the input",
-    "id": "da8a2052-c7da-4a06-ad9b-e0068a2557bd",
-    "type": "lvl3",
-    "url": "/docs/form/number-input#changing-the-size-of-the-input",
-    "hierarchy": {
-      "lvl1": "Number Input",
-      "lvl2": "Formatting and Parsing the value",
-      "lvl3": "Changing the size of the input"
-    }
-  },
-  {
-    "content": "Changing the styles",
-    "id": "3c62acdc-a492-4d51-8c19-a7d8909273a6",
-    "type": "lvl3",
-    "url": "/docs/form/number-input#changing-the-styles",
-    "hierarchy": {
-      "lvl1": "Number Input",
-      "lvl2": "Changing the size of the input",
-      "lvl3": "Changing the styles"
-    }
-  },
-  {
-    "content": "Combining it with a Slider",
-    "id": "c598b57b-956a-40f3-9b50-68b92741713f",
-    "type": "lvl3",
-    "url": "/docs/form/number-input#combining-it-with-a-slider",
-    "hierarchy": {
-      "lvl1": "Number Input",
-      "lvl2": "Changing the styles",
-      "lvl3": "Combining it with a Slider"
-    }
-  },
-  {
-    "content": "Create a mobile spinner",
-    "id": "37e20e61-4c4d-4651-a55e-94656c793426",
-    "type": "lvl3",
-    "url": "/docs/form/number-input#create-a-mobile-spinner",
-    "hierarchy": {
-      "lvl1": "Number Input",
-      "lvl2": "Combining it with a Slider",
-      "lvl3": "Create a mobile spinner"
-    }
-  },
-  {
-    "content": "Increment value using Mouse wheel",
-    "id": "504d9580-070f-4f76-8087-368be7cb8e79",
-    "type": "lvl3",
-    "url": "/docs/form/number-input#increment-value-using-mouse-wheel",
-    "hierarchy": {
-      "lvl1": "Number Input",
-      "lvl2": "Create a mobile spinner",
-      "lvl3": "Increment value using Mouse wheel"
-    }
-  },
-  {
-    "content": "Accessibility",
-    "id": "f97b7054-6463-426e-b45f-0b06d23b2c79",
-    "type": "lvl2",
-    "url": "/docs/form/number-input#accessibility",
-    "hierarchy": {
-      "lvl1": "Number Input",
-      "lvl2": "Accessibility",
-      "lvl3": null
-    }
-  },
-  {
-    "content": "Aria Roles",
-    "id": "c961540f-16af-4f32-b5a0-dfca90759fca",
-    "type": "lvl3",
-    "url": "/docs/form/number-input#aria-roles",
-    "hierarchy": {
-      "lvl1": "Number Input",
-      "lvl2": "Accessibility",
-      "lvl3": "Aria Roles"
-    }
-  },
-  {
-    "content": "Keyboard Navigation",
-    "id": "1946d883-3bec-4f8a-a916-cb2a4e5acd8f",
-    "type": "lvl3",
-    "url": "/docs/form/number-input#keyboard-navigation",
-    "hierarchy": {
-      "lvl1": "Number Input",
-      "lvl2": "Aria Roles",
-      "lvl3": "Keyboard Navigation"
-    }
-  },
-  {
-    "content": "Props",
-    "id": "5aacae98-15a7-45d2-8567-94354da256b6",
-    "type": "lvl2",
-    "url": "/docs/form/number-input#props",
-    "hierarchy": { "lvl1": "Number Input", "lvl2": "Props", "lvl3": null }
-  },
-  {
-    "content": "NumberInput Props",
-    "id": "ef11a616-e749-471b-8bee-5bdcda069b4b",
-    "type": "lvl3",
-    "url": "/docs/form/number-input#numberinput-props",
-    "hierarchy": {
-      "lvl1": "Number Input",
-      "lvl2": "Props",
-      "lvl3": "NumberInput Props"
-    }
-  },
-  {
-    "content": "NumberInputField Props",
-    "id": "510ea539-6973-4279-ba10-acc70038dc82",
-    "type": "lvl3",
-    "url": "/docs/form/number-input#numberinputfield-props",
-    "hierarchy": {
-      "lvl1": "Number Input",
-      "lvl2": "NumberInput Props",
-      "lvl3": "NumberInputField Props"
-    }
-  },
-  {
-    "content": "NumberInputStepper Props",
-    "id": "42581e55-58dd-4447-a9cf-4b98bba17913",
-    "type": "lvl3",
-    "url": "/docs/form/number-input#numberinputstepper-props",
-    "hierarchy": {
-      "lvl1": "Number Input",
-      "lvl2": "NumberInputField Props",
-      "lvl3": "NumberInputStepper Props"
-    }
-  },
-  {
-    "content": "NumberDecrementStepper and NumberIncrementStepper Props",
-    "id": "1b9514af-af10-4323-925e-7b29179f91a6",
-    "type": "lvl3",
-    "url": "/docs/form/number-input#numberdecrementstepper-and-numberincrementstepper-props",
-    "hierarchy": {
-      "lvl1": "Number Input",
-      "lvl2": "NumberInputStepper Props",
-      "lvl3": "NumberDecrementStepper and NumberIncrementStepper Props"
-    }
-  },
-  {
-    "content": "Pin Input",
-    "id": "9bd99b87-40f0-4fe6-8492-f4e0a9f937ff",
-    "type": "lvl1",
-    "url": "/docs/form/pin-input",
-    "hierarchy": { "lvl1": "Pin Input" }
-  },
-  {
-    "content": "Import",
-    "id": "09591285-3c95-4cd1-a6d2-8176bfc0836c",
-    "type": "lvl2",
-    "url": "/docs/form/pin-input#import",
-    "hierarchy": { "lvl1": "Pin Input", "lvl2": "Import", "lvl3": null }
-  },
-  {
-    "content": "Usage",
-    "id": "15d0ffb9-ce25-49c9-ba37-fba4fa393b40",
-    "type": "lvl2",
-    "url": "/docs/form/pin-input#usage",
-    "hierarchy": { "lvl1": "Pin Input", "lvl2": "Usage", "lvl3": null }
-  },
-  {
-    "content": "Allowing Alphanumeric values",
-    "id": "7424fb40-aaf5-4f3a-b1c1-9c138893fc11",
-    "type": "lvl3",
-    "url": "/docs/form/pin-input#allowing-alphanumeric-values",
-    "hierarchy": {
-      "lvl1": "Pin Input",
-      "lvl2": "Usage",
-      "lvl3": "Allowing Alphanumeric values"
-    }
-  },
-  {
-    "content": "Using fields as a one time password (OTP)",
-    "id": "8ad13986-9deb-45c2-9305-f9688b52fd5d",
-    "type": "lvl3",
-    "url": "/docs/form/pin-input#using-fields-as-a-one-time-password-otp",
-    "hierarchy": {
-      "lvl1": "Pin Input",
-      "lvl2": "Allowing Alphanumeric values",
-      "lvl3": "Using fields as a one time password (OTP)"
-    }
-  },
-  {
-    "content": "Masking the pin input's value",
-    "id": "337a2b2e-9ace-4a8d-b935-330aa285c8ac",
-    "type": "lvl3",
-    "url": "/docs/form/pin-input#masking-the-pin-inputs-value",
-    "hierarchy": {
-      "lvl1": "Pin Input",
-      "lvl2": "Using fields as a one time password (OTP)",
-      "lvl3": "Masking the pin input's value"
-    }
-  },
-  {
-    "content": "Changing the size of the PinInput",
-    "id": "6bc5d230-ddbf-4f6b-9b86-7c43915a16ec",
-    "type": "lvl3",
-    "url": "/docs/form/pin-input#changing-the-size-of-the-pininput",
-    "hierarchy": {
-      "lvl1": "Pin Input",
-      "lvl2": "Masking the pin input's value",
-      "lvl3": "Changing the size of the PinInput"
-    }
-  },
-  {
-    "content": "Adding a defaultValue",
-    "id": "461df324-a4f4-46a0-8116-8c43aa071868",
-    "type": "lvl3",
-    "url": "/docs/form/pin-input#adding-a-defaultvalue",
-    "hierarchy": {
-      "lvl1": "Pin Input",
-      "lvl2": "Changing the size of the PinInput",
-      "lvl3": "Adding a defaultValue"
-    }
-  },
-  {
-    "content": "Changing the placeholder",
-    "id": "63bb3360-3fb8-49ef-9fb7-083c4fa6cafb",
-    "type": "lvl3",
-    "url": "/docs/form/pin-input#changing-the-placeholder",
-    "hierarchy": {
-      "lvl1": "Pin Input",
-      "lvl2": "Adding a defaultValue",
-      "lvl3": "Changing the placeholder"
-    }
-  },
-  {
-    "content": "Disable focus management",
-    "id": "4a92487f-fd62-4974-8b45-0e5144a9c087",
-    "type": "lvl3",
-    "url": "/docs/form/pin-input#disable-focus-management",
-    "hierarchy": {
-      "lvl1": "Pin Input",
-      "lvl2": "Changing the placeholder",
-      "lvl3": "Disable focus management"
-    }
-  },
-  {
-    "content": "AutoFill and Copy + Paste",
-    "id": "cec9a4c4-50f9-46c3-9ace-2ae9333ebf38",
-    "type": "lvl3",
-    "url": "/docs/form/pin-input#autofill-and-copy--paste",
-    "hierarchy": {
-      "lvl1": "Pin Input",
-      "lvl2": "Disable focus management",
-      "lvl3": "AutoFill and Copy + Paste"
-    }
-  },
-  {
-    "content": "Props",
-    "id": "124190f9-38b4-4067-8e39-1453af8bbf33",
-    "type": "lvl2",
-    "url": "/docs/form/pin-input#props",
-    "hierarchy": { "lvl1": "Pin Input", "lvl2": "Props", "lvl3": null }
-  },
-  {
-    "content": "PinInputField",
-    "id": "ee6116ae-4ec3-43b7-9130-47a7a4e9651f",
-    "type": "lvl3",
-    "url": "/docs/form/pin-input#pininputfield",
-    "hierarchy": {
-      "lvl1": "Pin Input",
-      "lvl2": "Props",
-      "lvl3": "PinInputField"
-    }
-  },
-  {
     "content": "Radio",
     "id": "08dbd6e9-48bd-46d7-a94f-1875a99b90e8",
     "type": "lvl1",
@@ -2401,303 +771,6 @@
     "type": "lvl2",
     "url": "/docs/form/radio#import",
     "hierarchy": { "lvl1": "Radio", "lvl2": "Import", "lvl3": null }
-  },
-  {
-    "content": "Usage",
-    "id": "ea8caf55-ca86-44eb-a6db-5a5187543919",
-    "type": "lvl3",
-    "url": "/docs/form/radio#usage",
-    "hierarchy": { "lvl1": "Radio", "lvl2": "Import", "lvl3": "Usage" }
-  },
-  {
-    "content": "Radio with custom color",
-    "id": "2d541dda-e179-4480-8cd9-52a0740acc65",
-    "type": "lvl3",
-    "url": "/docs/form/radio#radio-with-custom-color",
-    "hierarchy": {
-      "lvl1": "Radio",
-      "lvl2": "Usage",
-      "lvl3": "Radio with custom color"
-    }
-  },
-  {
-    "content": "Radio sizes",
-    "id": "75d9addb-94f9-4ddf-840d-6af4da9ff72b",
-    "type": "lvl3",
-    "url": "/docs/form/radio#radio-sizes",
-    "hierarchy": {
-      "lvl1": "Radio",
-      "lvl2": "Radio with custom color",
-      "lvl3": "Radio sizes"
-    }
-  },
-  {
-    "content": "Disabled radios",
-    "id": "6b570d09-1de9-4d1d-9322-1bf96615c1ff",
-    "type": "lvl3",
-    "url": "/docs/form/radio#disabled-radios",
-    "hierarchy": {
-      "lvl1": "Radio",
-      "lvl2": "Radio sizes",
-      "lvl3": "Disabled radios"
-    }
-  },
-  {
-    "content": "Horizontal alignment",
-    "id": "8e4995ce-fbc8-4771-9351-0557711dfb64",
-    "type": "lvl3",
-    "url": "/docs/form/radio#horizontal-alignment",
-    "hierarchy": {
-      "lvl1": "Radio",
-      "lvl2": "Disabled radios",
-      "lvl3": "Horizontal alignment"
-    }
-  },
-  {
-    "content": "Invalid Radio",
-    "id": "50b05c8e-527a-42c0-aa63-880362f0df00",
-    "type": "lvl3",
-    "url": "/docs/form/radio#invalid-radio",
-    "hierarchy": {
-      "lvl1": "Radio",
-      "lvl2": "Horizontal alignment",
-      "lvl3": "Invalid Radio"
-    }
-  },
-  {
-    "content": "Custom Radio Buttons",
-    "id": "5fded6d5-f154-48a5-93af-0e209da62c8b",
-    "type": "lvl3",
-    "url": "/docs/form/radio#custom-radio-buttons",
-    "hierarchy": {
-      "lvl1": "Radio",
-      "lvl2": "Invalid Radio",
-      "lvl3": "Custom Radio Buttons"
-    }
-  },
-  {
-    "content": "Note about `name` prop",
-    "id": "0c399bdd-0207-417d-9829-fa123e2f8451",
-    "type": "lvl3",
-    "url": "/docs/form/radio#note-about-name-prop",
-    "hierarchy": {
-      "lvl1": "Radio",
-      "lvl2": "Custom Radio Buttons",
-      "lvl3": "Note about `name` prop"
-    }
-  },
-  {
-    "content": "Props",
-    "id": "6398786e-f004-4473-8b84-373c5d0de784",
-    "type": "lvl2",
-    "url": "/docs/form/radio#props",
-    "hierarchy": { "lvl1": "Radio", "lvl2": "Props", "lvl3": null }
-  },
-  {
-    "content": "Select",
-    "id": "30561152-395f-4997-8461-fe216e5e069c",
-    "type": "lvl1",
-    "url": "/docs/form/select",
-    "hierarchy": { "lvl1": "Select" }
-  },
-  {
-    "content": "Import",
-    "id": "af58767a-8d46-478c-ba07-8c8d5dc5204c",
-    "type": "lvl2",
-    "url": "/docs/form/select#import",
-    "hierarchy": { "lvl1": "Select", "lvl2": "Import", "lvl3": null }
-  },
-  {
-    "content": "Usage",
-    "id": "836629af-c85b-4da4-84d2-af943f27cbba",
-    "type": "lvl2",
-    "url": "/docs/form/select#usage",
-    "hierarchy": { "lvl1": "Select", "lvl2": "Usage", "lvl3": null }
-  },
-  {
-    "content": "Changing the size of the Select",
-    "id": "3c21c8ba-ff1f-402f-84a9-ab9325e4ad83",
-    "type": "lvl3",
-    "url": "/docs/form/select#changing-the-size-of-the-select",
-    "hierarchy": {
-      "lvl1": "Select",
-      "lvl2": "Usage",
-      "lvl3": "Changing the size of the Select"
-    }
-  },
-  {
-    "content": "Changing the appearance of the Select",
-    "id": "86133c27-c235-4493-b4bc-88a357a2d53d",
-    "type": "lvl3",
-    "url": "/docs/form/select#changing-the-appearance-of-the-select",
-    "hierarchy": {
-      "lvl1": "Select",
-      "lvl2": "Changing the size of the Select",
-      "lvl3": "Changing the appearance of the Select"
-    }
-  },
-  {
-    "content": "Changing the icon in the Select",
-    "id": "4d42afaf-48d5-453e-8146-db39e24a2842",
-    "type": "lvl3",
-    "url": "/docs/form/select#changing-the-icon-in-the-select",
-    "hierarchy": {
-      "lvl1": "Select",
-      "lvl2": "Changing the appearance of the Select",
-      "lvl3": "Changing the icon in the Select"
-    }
-  },
-  {
-    "content": "Overriding the styles of the Select",
-    "id": "a179ac39-c731-4c7b-a4ba-8cecc9111bb0",
-    "type": "lvl3",
-    "url": "/docs/form/select#overriding-the-styles-of-the-select",
-    "hierarchy": {
-      "lvl1": "Select",
-      "lvl2": "Changing the icon in the Select",
-      "lvl3": "Overriding the styles of the Select"
-    }
-  },
-  {
-    "content": "Props",
-    "id": "43393f95-d13f-4585-ac32-8d0d6b082ff6",
-    "type": "lvl2",
-    "url": "/docs/form/select#props",
-    "hierarchy": { "lvl1": "Select", "lvl2": "Props", "lvl3": null }
-  },
-  {
-    "content": "Slider",
-    "id": "ffa4096f-dc36-4fc0-a871-a91abc96fb60",
-    "type": "lvl1",
-    "url": "/docs/form/slider",
-    "hierarchy": { "lvl1": "Slider" }
-  },
-  {
-    "content": "Import",
-    "id": "dccc2dfd-e629-40ef-809d-bef60ec56cf4",
-    "type": "lvl2",
-    "url": "/docs/form/slider#import",
-    "hierarchy": { "lvl1": "Slider", "lvl2": "Import", "lvl3": null }
-  },
-  {
-    "content": "Usage",
-    "id": "6e9c9671-077d-4225-afa1-743aa7bd12fb",
-    "type": "lvl2",
-    "url": "/docs/form/slider#usage",
-    "hierarchy": { "lvl1": "Slider", "lvl2": "Usage", "lvl3": null }
-  },
-  {
-    "content": "Changing the slider color scheme",
-    "id": "e7d61bd9-f3d2-42be-841e-fb45eb98f5ea",
-    "type": "lvl3",
-    "url": "/docs/form/slider#changing-the-slider-color-scheme",
-    "hierarchy": {
-      "lvl1": "Slider",
-      "lvl2": "Usage",
-      "lvl3": "Changing the slider color scheme"
-    }
-  },
-  {
-    "content": "Changing the slider orientation",
-    "id": "db16ba32-2da4-4826-9691-a1372a460c78",
-    "type": "lvl3",
-    "url": "/docs/form/slider#changing-the-slider-orientation",
-    "hierarchy": {
-      "lvl1": "Slider",
-      "lvl2": "Changing the slider color scheme",
-      "lvl3": "Changing the slider orientation"
-    }
-  },
-  {
-    "content": "Customizing the Slider",
-    "id": "7c017b91-e96e-4ead-9956-13048185d33a",
-    "type": "lvl3",
-    "url": "/docs/form/slider#customizing-the-slider",
-    "hierarchy": {
-      "lvl1": "Slider",
-      "lvl2": "Changing the slider orientation",
-      "lvl3": "Customizing the Slider"
-    }
-  },
-  {
-    "content": "Getting the final value when dragging the slider",
-    "id": "58f90e54-ce45-4d01-a503-7b2f399d6776",
-    "type": "lvl3",
-    "url": "/docs/form/slider#getting-the-final-value-when-dragging-the-slider",
-    "hierarchy": {
-      "lvl1": "Slider",
-      "lvl2": "Customizing the Slider",
-      "lvl3": "Getting the final value when dragging the slider"
-    }
-  },
-  {
-    "content": "Configure thumb focus with `focusThumbOnChange`",
-    "id": "3c237d85-f06f-4a7e-87e1-13aa50bdad89",
-    "type": "lvl3",
-    "url": "/docs/form/slider#configure-thumb-focus-with-focusthumbonchange",
-    "hierarchy": {
-      "lvl1": "Slider",
-      "lvl2": "Getting the final value when dragging the slider",
-      "lvl3": "Configure thumb focus with `focusThumbOnChange`"
-    }
-  },
-  {
-    "content": "useSlider",
-    "id": "f5d420f3-3438-4954-8218-122a5e31d491",
-    "type": "lvl3",
-    "url": "/docs/form/slider#useslider",
-    "hierarchy": {
-      "lvl1": "Slider",
-      "lvl2": "Configure thumb focus with `focusThumbOnChange`",
-      "lvl3": "useSlider"
-    }
-  },
-  {
-    "content": "Props",
-    "id": "f6afd0a8-9aa1-429a-a1f1-03cf74676356",
-    "type": "lvl2",
-    "url": "/docs/form/slider#props",
-    "hierarchy": { "lvl1": "Slider", "lvl2": "Props", "lvl3": null }
-  },
-  {
-    "content": "Slider Props",
-    "id": "06c32b1a-b934-4033-8311-32c175d09100",
-    "type": "lvl3",
-    "url": "/docs/form/slider#slider-props",
-    "hierarchy": { "lvl1": "Slider", "lvl2": "Props", "lvl3": "Slider Props" }
-  },
-  {
-    "content": "SliderThumb Props",
-    "id": "fe622fd2-6416-4f7b-9db9-72ed94dad4f2",
-    "type": "lvl3",
-    "url": "/docs/form/slider#sliderthumb-props",
-    "hierarchy": {
-      "lvl1": "Slider",
-      "lvl2": "Slider Props",
-      "lvl3": "SliderThumb Props"
-    }
-  },
-  {
-    "content": "SliderFilledTrack Props",
-    "id": "e0d1fd35-8bd4-411c-9ddd-e8b51af2e000",
-    "type": "lvl3",
-    "url": "/docs/form/slider#sliderfilledtrack-props",
-    "hierarchy": {
-      "lvl1": "Slider",
-      "lvl2": "SliderThumb Props",
-      "lvl3": "SliderFilledTrack Props"
-    }
-  },
-  {
-    "content": "SliderTrack Props",
-    "id": "44f6401c-c0fa-47ee-899a-7237b247ac95",
-    "type": "lvl3",
-    "url": "/docs/form/slider#slidertrack-props",
-    "hierarchy": {
-      "lvl1": "Slider",
-      "lvl2": "SliderFilledTrack Props",
-      "lvl3": "SliderTrack Props"
-    }
   },
   {
     "content": "Switch",
@@ -2744,78 +817,6 @@
     "type": "lvl2",
     "url": "/docs/form/switch#props",
     "hierarchy": { "lvl1": "Switch", "lvl2": "Props", "lvl3": null }
-  },
-  {
-    "content": "Textarea",
-    "id": "fc8c6535-f056-44db-853e-48ca444d8009",
-    "type": "lvl1",
-    "url": "/docs/form/textarea",
-    "hierarchy": { "lvl1": "Textarea" }
-  },
-  {
-    "content": "Import",
-    "id": "0314192e-c197-4b8d-9e4b-d364483675bc",
-    "type": "lvl2",
-    "url": "/docs/form/textarea#import",
-    "hierarchy": { "lvl1": "Textarea", "lvl2": "Import", "lvl3": null }
-  },
-  {
-    "content": "Usage",
-    "id": "ace91067-b3fe-488f-9890-a856b92aa072",
-    "type": "lvl3",
-    "url": "/docs/form/textarea#usage",
-    "hierarchy": { "lvl1": "Textarea", "lvl2": "Import", "lvl3": "Usage" }
-  },
-  {
-    "content": "Controlled Textarea",
-    "id": "72d3dcf9-7aee-402e-bf85-9956f0080f01",
-    "type": "lvl3",
-    "url": "/docs/form/textarea#controlled-textarea",
-    "hierarchy": {
-      "lvl1": "Textarea",
-      "lvl2": "Usage",
-      "lvl3": "Controlled Textarea"
-    }
-  },
-  {
-    "content": "Resize behavior",
-    "id": "9f1c5319-ca2f-40c2-9374-b341e3a87342",
-    "type": "lvl3",
-    "url": "/docs/form/textarea#resize-behavior",
-    "hierarchy": {
-      "lvl1": "Textarea",
-      "lvl2": "Controlled Textarea",
-      "lvl3": "Resize behavior"
-    }
-  },
-  {
-    "content": "Disabled Textarea",
-    "id": "81aa1878-6c7f-4e01-a18c-d8d545c3189e",
-    "type": "lvl3",
-    "url": "/docs/form/textarea#disabled-textarea",
-    "hierarchy": {
-      "lvl1": "Textarea",
-      "lvl2": "Resize behavior",
-      "lvl3": "Disabled Textarea"
-    }
-  },
-  {
-    "content": "Invalid Textarea",
-    "id": "dbdd9ba9-ea90-4b39-97f1-30b82cacef3b",
-    "type": "lvl3",
-    "url": "/docs/form/textarea#invalid-textarea",
-    "hierarchy": {
-      "lvl1": "Textarea",
-      "lvl2": "Disabled Textarea",
-      "lvl3": "Invalid Textarea"
-    }
-  },
-  {
-    "content": "Props",
-    "id": "ec8f451e-b1b3-4fa1-9a5f-86383b9fb87a",
-    "type": "lvl2",
-    "url": "/docs/form/textarea#props",
-    "hierarchy": { "lvl1": "Textarea", "lvl2": "Props", "lvl3": null }
   },
   {
     "content": "Getting Started",
@@ -3221,56 +1222,6 @@
     "hierarchy": { "lvl1": "useToken", "lvl2": "Usage", "lvl3": null }
   },
   {
-    "content": "Aspect Ratio",
-    "id": "0abab398-4e03-46c9-a72e-b71a398296ef",
-    "type": "lvl1",
-    "url": "/docs/layout/aspect-ratio",
-    "hierarchy": { "lvl1": "Aspect Ratio" }
-  },
-  {
-    "content": "Import",
-    "id": "52dd06ba-f939-482b-b7d4-b515e08091c4",
-    "type": "lvl2",
-    "url": "/docs/layout/aspect-ratio#import",
-    "hierarchy": { "lvl1": "Aspect Ratio", "lvl2": "Import", "lvl3": null }
-  },
-  {
-    "content": "Embed Video",
-    "id": "d0160d4d-39f2-43e9-ab20-09b747d3a6e7",
-    "type": "lvl2",
-    "url": "/docs/layout/aspect-ratio#embed-video",
-    "hierarchy": { "lvl1": "Aspect Ratio", "lvl2": "Embed Video", "lvl3": null }
-  },
-  {
-    "content": "Embed Image",
-    "id": "7f2ce256-7138-491a-be06-187b6b8a6fb1",
-    "type": "lvl3",
-    "url": "/docs/layout/aspect-ratio#embed-image",
-    "hierarchy": {
-      "lvl1": "Aspect Ratio",
-      "lvl2": "Embed Video",
-      "lvl3": "Embed Image"
-    }
-  },
-  {
-    "content": "Embed a map",
-    "id": "26fd98ef-844f-4fb2-9ed5-26a58f213f9a",
-    "type": "lvl3",
-    "url": "/docs/layout/aspect-ratio#embed-a-map",
-    "hierarchy": {
-      "lvl1": "Aspect Ratio",
-      "lvl2": "Embed Image",
-      "lvl3": "Embed a map"
-    }
-  },
-  {
-    "content": "Props",
-    "id": "24ab1157-9042-4bb0-bd41-bc88c1fb25d1",
-    "type": "lvl2",
-    "url": "/docs/layout/aspect-ratio#props",
-    "hierarchy": { "lvl1": "Aspect Ratio", "lvl2": "Props", "lvl3": null }
-  },
-  {
     "content": "Box",
     "id": "64f472eb-44a4-433a-b85f-c74b88bf0fe8",
     "type": "lvl1",
@@ -3304,84 +1255,6 @@
     "type": "lvl3",
     "url": "/docs/layout/box#as-prop",
     "hierarchy": { "lvl1": "Box", "lvl2": "Usage", "lvl3": "as prop" }
-  },
-  {
-    "content": "Center",
-    "id": "4c0c94f4-85dd-4abe-b475-483259d02097",
-    "type": "lvl1",
-    "url": "/docs/layout/center",
-    "hierarchy": { "lvl1": "Center" }
-  },
-  {
-    "content": "Import",
-    "id": "cf476821-4b8a-4847-9d33-448837c9b4e5",
-    "type": "lvl2",
-    "url": "/docs/layout/center#import",
-    "hierarchy": { "lvl1": "Center", "lvl2": "Import", "lvl3": null }
-  },
-  {
-    "content": "Usage",
-    "id": "14599680-71ef-499a-bcce-0d68ada1c8fa",
-    "type": "lvl2",
-    "url": "/docs/layout/center#usage",
-    "hierarchy": { "lvl1": "Center", "lvl2": "Usage", "lvl3": null }
-  },
-  {
-    "content": "With icons",
-    "id": "8c2bbc91-4560-4f43-9ae8-98ee3a93cc34",
-    "type": "lvl3",
-    "url": "/docs/layout/center#with-icons",
-    "hierarchy": { "lvl1": "Center", "lvl2": "Usage", "lvl3": "With icons" }
-  },
-  {
-    "content": "Square and Circle",
-    "id": "3812f63b-dc3e-4e00-9780-d5d508261afe",
-    "type": "lvl3",
-    "url": "/docs/layout/center#square-and-circle",
-    "hierarchy": {
-      "lvl1": "Center",
-      "lvl2": "With icons",
-      "lvl3": "Square and Circle"
-    }
-  },
-  {
-    "content": "Container",
-    "id": "a7e21482-ca19-4ec9-9b59-9c270e688a53",
-    "type": "lvl1",
-    "url": "/docs/layout/container",
-    "hierarchy": { "lvl1": "Container" }
-  },
-  {
-    "content": "Import",
-    "id": "2df32bea-7400-48b9-9cdf-c5a50c1640bc",
-    "type": "lvl2",
-    "url": "/docs/layout/container#import",
-    "hierarchy": { "lvl1": "Container", "lvl2": "Import", "lvl3": null }
-  },
-  {
-    "content": "Usage",
-    "id": "cafd7697-8510-4984-95ea-86346354bc42",
-    "type": "lvl2",
-    "url": "/docs/layout/container#usage",
-    "hierarchy": { "lvl1": "Container", "lvl2": "Usage", "lvl3": null }
-  },
-  {
-    "content": "Centering the children",
-    "id": "18fc2b38-7c97-4603-951c-9fe3756e2874",
-    "type": "lvl2",
-    "url": "/docs/layout/container#centering-the-children",
-    "hierarchy": {
-      "lvl1": "Container",
-      "lvl2": "Centering the children",
-      "lvl3": null
-    }
-  },
-  {
-    "content": "Props",
-    "id": "94039673-9914-4f34-927d-53263b851d0b",
-    "type": "lvl2",
-    "url": "/docs/layout/container#props",
-    "hierarchy": { "lvl1": "Container", "lvl2": "Props", "lvl3": null }
   },
   {
     "content": "Flex",
@@ -3631,74 +1504,6 @@
       "lvl1": "Stack",
       "lvl2": "Notes on Stack vs Flex",
       "lvl3": "Props"
-    }
-  },
-  {
-    "content": "Wrap",
-    "id": "d48bf9ed-ce9a-4a04-a050-764becd16fe7",
-    "type": "lvl1",
-    "url": "/docs/layout/wrap",
-    "hierarchy": { "lvl1": "Wrap" }
-  },
-  {
-    "content": "Import",
-    "id": "0c559d37-3be2-409b-ad9e-1378e80a671d",
-    "type": "lvl2",
-    "url": "/docs/layout/wrap#import",
-    "hierarchy": { "lvl1": "Wrap", "lvl2": "Import", "lvl3": null }
-  },
-  {
-    "content": "Usage",
-    "id": "8d5ccb94-24af-4222-ad16-b524ab7a44d6",
-    "type": "lvl2",
-    "url": "/docs/layout/wrap#usage",
-    "hierarchy": { "lvl1": "Wrap", "lvl2": "Usage", "lvl3": null }
-  },
-  {
-    "content": "Change the spacing",
-    "id": "b3327e76-2ea4-4ce8-bf1b-45754fc85264",
-    "type": "lvl3",
-    "url": "/docs/layout/wrap#change-the-spacing",
-    "hierarchy": {
-      "lvl1": "Wrap",
-      "lvl2": "Usage",
-      "lvl3": "Change the spacing"
-    }
-  },
-  {
-    "content": "Change the alignment",
-    "id": "8067054e-157b-4a2c-ad78-3758c4951040",
-    "type": "lvl3",
-    "url": "/docs/layout/wrap#change-the-alignment",
-    "hierarchy": {
-      "lvl1": "Wrap",
-      "lvl2": "Change the spacing",
-      "lvl3": "Change the alignment"
-    }
-  },
-  {
-    "content": "Props",
-    "id": "fc7dc0b5-2831-4ba6-856e-d51191e92094",
-    "type": "lvl2",
-    "url": "/docs/layout/wrap#props",
-    "hierarchy": { "lvl1": "Wrap", "lvl2": "Props", "lvl3": null }
-  },
-  {
-    "content": "Wrap Props",
-    "id": "eec28563-b98e-41c8-8236-c4af4048d3d2",
-    "type": "lvl3",
-    "url": "/docs/layout/wrap#wrap-props",
-    "hierarchy": { "lvl1": "Wrap", "lvl2": "Props", "lvl3": "Wrap Props" }
-  },
-  {
-    "content": "WrapItem Props",
-    "id": "f8479cc5-1503-411c-92cb-6ad981a81bb4",
-    "type": "lvl3",
-    "url": "/docs/layout/wrap#wrapitem-props",
-    "hierarchy": {
-      "lvl1": "Wrap",
-      "lvl2": "Wrap Props",
-      "lvl3": "WrapItem Props"
     }
   },
   {
@@ -4119,63 +1924,6 @@
     }
   },
   {
-    "content": "Link Overlay",
-    "id": "70abc37e-a1ac-484d-a9be-d5fd382556e8",
-    "type": "lvl1",
-    "url": "/docs/navigation/link-overlay",
-    "hierarchy": { "lvl1": "Link Overlay" }
-  },
-  {
-    "content": "Import",
-    "id": "812cf5bf-30c4-44a3-9389-8c3d74f364ad",
-    "type": "lvl2",
-    "url": "/docs/navigation/link-overlay#import",
-    "hierarchy": { "lvl1": "Link Overlay", "lvl2": "Import", "lvl3": null }
-  },
-  {
-    "content": "Usage",
-    "id": "c834e330-09bb-48f2-9ad7-750b1f1a0e0b",
-    "type": "lvl2",
-    "url": "/docs/navigation/link-overlay#usage",
-    "hierarchy": { "lvl1": "Link Overlay", "lvl2": "Usage", "lvl3": null }
-  },
-  {
-    "content": "Nested Links",
-    "id": "4e8e6b8f-ba25-4f6e-ba6d-eab58e7ed199",
-    "type": "lvl3",
-    "url": "/docs/navigation/link-overlay#nested-links",
-    "hierarchy": {
-      "lvl1": "Link Overlay",
-      "lvl2": "Usage",
-      "lvl3": "Nested Links"
-    }
-  },
-  {
-    "content": "Usage with Routing Library",
-    "id": "c110d0de-1387-4c95-9dd2-9787f4e1d6df",
-    "type": "lvl2",
-    "url": "/docs/navigation/link-overlay#usage-with-routing-library",
-    "hierarchy": {
-      "lvl1": "Link Overlay",
-      "lvl2": "Usage with Routing Library",
-      "lvl3": null
-    }
-  },
-  {
-    "content": "Caveat",
-    "id": "47be1bb9-03b5-43ba-8341-6b4bb5b7ee39",
-    "type": "lvl2",
-    "url": "/docs/navigation/link-overlay#caveat",
-    "hierarchy": { "lvl1": "Link Overlay", "lvl2": "Caveat", "lvl3": null }
-  },
-  {
-    "content": "Props",
-    "id": "82da46c1-44a2-42e7-ab69-d3bf1333fb30",
-    "type": "lvl2",
-    "url": "/docs/navigation/link-overlay#props",
-    "hierarchy": { "lvl1": "Link Overlay", "lvl2": "Props", "lvl3": null }
-  },
-  {
     "content": "Link",
     "id": "d1346db8-d79d-4a89-ae93-d32a7ae43c6e",
     "type": "lvl1",
@@ -4231,56 +1979,6 @@
     "type": "lvl2",
     "url": "/docs/navigation/link#props",
     "hierarchy": { "lvl1": "Link", "lvl2": "Props", "lvl3": null }
-  },
-  {
-    "content": "Alert Dialog",
-    "id": "9b685236-3c9c-4b08-9e1d-a1fd5b98c98f",
-    "type": "lvl1",
-    "url": "/docs/overlay/alert-dialog",
-    "hierarchy": { "lvl1": "Alert Dialog" }
-  },
-  {
-    "content": "Import",
-    "id": "ad03fb6c-2d8b-47da-bd8b-8ca89b724355",
-    "type": "lvl2",
-    "url": "/docs/overlay/alert-dialog#import",
-    "hierarchy": { "lvl1": "Alert Dialog", "lvl2": "Import", "lvl3": null }
-  },
-  {
-    "content": "Usage",
-    "id": "e5be6fcc-dc05-4bde-a161-a966588f57f2",
-    "type": "lvl2",
-    "url": "/docs/overlay/alert-dialog#usage",
-    "hierarchy": { "lvl1": "Alert Dialog", "lvl2": "Usage", "lvl3": null }
-  },
-  {
-    "content": "Changing the transition",
-    "id": "ff41c240-85bc-4873-99fb-c1f7885650e1",
-    "type": "lvl3",
-    "url": "/docs/overlay/alert-dialog#changing-the-transition",
-    "hierarchy": {
-      "lvl1": "Alert Dialog",
-      "lvl2": "Usage",
-      "lvl3": "Changing the transition"
-    }
-  },
-  {
-    "content": "Accessibility",
-    "id": "b2f6fa7c-2fa7-4720-8e48-12dd822e3b52",
-    "type": "lvl2",
-    "url": "/docs/overlay/alert-dialog#accessibility",
-    "hierarchy": {
-      "lvl1": "Alert Dialog",
-      "lvl2": "Accessibility",
-      "lvl3": null
-    }
-  },
-  {
-    "content": "Props",
-    "id": "71a6789b-a63a-48ce-994e-732a3ce59930",
-    "type": "lvl2",
-    "url": "/docs/overlay/alert-dialog#props",
-    "hierarchy": { "lvl1": "Alert Dialog", "lvl2": "Props", "lvl3": null }
   },
   {
     "content": "Drawer",
@@ -4805,259 +2503,22 @@
     }
   },
   {
-    "content": "Popover",
-    "id": "8a63ec6b-48a9-43b4-a7b5-41cb14884da8",
-    "type": "lvl1",
-    "url": "/docs/overlay/popover",
-    "hierarchy": { "lvl1": "Popover" }
-  },
-  {
-    "content": "Import",
-    "id": "6b439aa0-1ac5-4b1f-bf93-b9a632a9ee36",
-    "type": "lvl2",
-    "url": "/docs/overlay/popover#import",
-    "hierarchy": { "lvl1": "Popover", "lvl2": "Import", "lvl3": null }
-  },
-  {
-    "content": "Basic Usage",
-    "id": "17a2c8a1-2b4a-452a-b9c0-da2129182a15",
-    "type": "lvl2",
-    "url": "/docs/overlay/popover#basic-usage",
-    "hierarchy": { "lvl1": "Popover", "lvl2": "Basic Usage", "lvl3": null }
-  },
-  {
-    "content": "Rendering the Popover in a Portal",
-    "id": "71bb975d-d2d8-430c-b560-7eff635f8159",
-    "type": "lvl2",
-    "url": "/docs/overlay/popover#rendering-the-popover-in-a-portal",
-    "hierarchy": {
-      "lvl1": "Popover",
-      "lvl2": "Rendering the Popover in a Portal",
-      "lvl3": null
-    }
-  },
-  {
-    "content": "Focus an element when Popover opens",
-    "id": "d68b6b33-1672-4f78-bf6e-f4bfd54623f4",
-    "type": "lvl2",
-    "url": "/docs/overlay/popover#focus-an-element-when-popover-opens",
-    "hierarchy": {
-      "lvl1": "Popover",
-      "lvl2": "Focus an element when Popover opens",
-      "lvl3": null
-    }
-  },
-  {
-    "content": "Trapping Focus within Popover",
-    "id": "f833e7c0-2238-4b6c-bf6f-6fda41e02b15",
-    "type": "lvl2",
-    "url": "/docs/overlay/popover#trapping-focus-within-popover",
-    "hierarchy": {
-      "lvl1": "Popover",
-      "lvl2": "Trapping Focus within Popover",
-      "lvl3": null
-    }
-  },
-  {
-    "content": "Controlled Usage",
-    "id": "e589afb5-a905-4b9b-9157-2573f7cef8eb",
-    "type": "lvl2",
-    "url": "/docs/overlay/popover#controlled-usage",
-    "hierarchy": { "lvl1": "Popover", "lvl2": "Controlled Usage", "lvl3": null }
-  },
-  {
-    "content": "Accessing Internal state",
-    "id": "b286f90f-a746-4e9d-bd06-0fb43a6e3c8a",
-    "type": "lvl2",
-    "url": "/docs/overlay/popover#accessing-internal-state",
-    "hierarchy": {
-      "lvl1": "Popover",
-      "lvl2": "Accessing Internal state",
-      "lvl3": null
-    }
-  },
-  {
-    "content": "Customizing the Popover",
-    "id": "1ecebce0-4729-4f46-b542-743833efc11d",
-    "type": "lvl2",
-    "url": "/docs/overlay/popover#customizing-the-popover",
-    "hierarchy": {
-      "lvl1": "Popover",
-      "lvl2": "Customizing the Popover",
-      "lvl3": null
-    }
-  },
-  {
-    "content": "Popover Placements",
-    "id": "63a7e746-5baa-4a3c-9d06-c2efbf0bf942",
-    "type": "lvl2",
-    "url": "/docs/overlay/popover#popover-placements",
-    "hierarchy": {
-      "lvl1": "Popover",
-      "lvl2": "Popover Placements",
-      "lvl3": null
-    }
-  },
-  {
-    "content": "Lazily mounting Popover",
-    "id": "d1dbc68c-58a7-4035-8f0a-bb7acd19e8b0",
-    "type": "lvl3",
-    "url": "/docs/overlay/popover#lazily-mounting-popover",
-    "hierarchy": {
-      "lvl1": "Popover",
-      "lvl2": "Popover Placements",
-      "lvl3": "Lazily mounting Popover"
-    }
-  },
-  {
-    "content": "Accessiblity",
-    "id": "65f1c6c1-e3bd-4f20-8a31-15661fb459f3",
-    "type": "lvl2",
-    "url": "/docs/overlay/popover#accessiblity",
-    "hierarchy": { "lvl1": "Popover", "lvl2": "Accessiblity", "lvl3": null }
-  },
-  {
-    "content": "Keyboard and Focus",
-    "id": "82abf508-ebea-4230-88a5-b12771c0f393",
-    "type": "lvl3",
-    "url": "/docs/overlay/popover#keyboard-and-focus",
-    "hierarchy": {
-      "lvl1": "Popover",
-      "lvl2": "Accessiblity",
-      "lvl3": "Keyboard and Focus"
-    }
-  },
-  {
-    "content": "ARIA Attributes",
-    "id": "94148508-5a81-4f9c-8d0b-068341e16cf7",
-    "type": "lvl3",
-    "url": "/docs/overlay/popover#aria-attributes",
-    "hierarchy": {
-      "lvl1": "Popover",
-      "lvl2": "Keyboard and Focus",
-      "lvl3": "ARIA Attributes"
-    }
-  },
-  {
-    "content": "Props",
-    "id": "57095278-f9d2-4293-a55d-cc24dfd3a9cd",
-    "type": "lvl2",
-    "url": "/docs/overlay/popover#props",
-    "hierarchy": { "lvl1": "Popover", "lvl2": "Props", "lvl3": null }
-  },
-  {
-    "content": "Popover Props",
-    "id": "ad36fe15-b205-4425-b49f-484d0b64e49d",
-    "type": "lvl3",
-    "url": "/docs/overlay/popover#popover-props",
-    "hierarchy": { "lvl1": "Popover", "lvl2": "Props", "lvl3": "Popover Props" }
-  },
-  {
-    "content": "Other Props",
-    "id": "35421938-5f7b-4ef7-b518-b52a0e2ff455",
-    "type": "lvl3",
-    "url": "/docs/overlay/popover#other-props",
-    "hierarchy": {
-      "lvl1": "Popover",
-      "lvl2": "Popover Props",
-      "lvl3": "Other Props"
-    }
-  },
-  {
-    "content": "Tooltip",
-    "id": "2bf6dd85-2151-4774-9f96-467530b57aa2",
-    "type": "lvl1",
-    "url": "/docs/overlay/tooltip",
-    "hierarchy": { "lvl1": "Tooltip" }
-  },
-  {
-    "content": "Import",
-    "id": "a69ad5ae-cc14-41b8-b556-3d6cd1c22243",
-    "type": "lvl2",
-    "url": "/docs/overlay/tooltip#import",
-    "hierarchy": { "lvl1": "Tooltip", "lvl2": "Import", "lvl3": null }
-  },
-  {
-    "content": "Usage",
-    "id": "20f7114c-f232-4413-8c8a-84f998f92d65",
-    "type": "lvl2",
-    "url": "/docs/overlay/tooltip#usage",
-    "hierarchy": { "lvl1": "Tooltip", "lvl2": "Usage", "lvl3": null }
-  },
-  {
-    "content": "With an icon",
-    "id": "8939075e-8148-493c-94cd-04ecfc7d960c",
-    "type": "lvl3",
-    "url": "/docs/overlay/tooltip#with-an-icon",
-    "hierarchy": { "lvl1": "Tooltip", "lvl2": "Usage", "lvl3": "With an icon" }
-  },
-  {
-    "content": "With arrow",
-    "id": "94d26d22-bcc5-48ca-ae27-5591115cc777",
-    "type": "lvl3",
-    "url": "/docs/overlay/tooltip#with-arrow",
-    "hierarchy": {
-      "lvl1": "Tooltip",
-      "lvl2": "With an icon",
-      "lvl3": "With arrow"
-    }
-  },
-  {
-    "content": "Tooltip with focusable content",
-    "id": "c5f16f84-6ce4-4d42-ad2f-7e52b0d40c98",
-    "type": "lvl3",
-    "url": "/docs/overlay/tooltip#tooltip-with-focusable-content",
-    "hierarchy": {
-      "lvl1": "Tooltip",
-      "lvl2": "With arrow",
-      "lvl3": "Tooltip with focusable content"
-    }
-  },
-  {
-    "content": "Disabled Tooltip",
-    "id": "92ee5dc4-8a8e-49a1-8a03-e35368c4612d",
-    "type": "lvl3",
-    "url": "/docs/overlay/tooltip#disabled-tooltip",
-    "hierarchy": {
-      "lvl1": "Tooltip",
-      "lvl2": "Tooltip with focusable content",
-      "lvl3": "Disabled Tooltip"
-    }
-  },
-  {
-    "content": "Placement",
-    "id": "60ab7a31-d490-4b56-a130-1f6cbff8b8f6",
-    "type": "lvl2",
-    "url": "/docs/overlay/tooltip#placement",
-    "hierarchy": { "lvl1": "Tooltip", "lvl2": "Placement", "lvl3": null }
-  },
-  {
-    "content": "More examples",
-    "id": "812472bc-ac61-4cf4-b8d6-39159a9c0770",
-    "type": "lvl2",
-    "url": "/docs/overlay/tooltip#more-examples",
-    "hierarchy": { "lvl1": "Tooltip", "lvl2": "More examples", "lvl3": null }
-  },
-  {
-    "content": "Props",
-    "id": "e03a2909-6fdd-4372-83e6-3a4a9c14c12a",
-    "type": "lvl2",
-    "url": "/docs/overlay/tooltip#props",
-    "hierarchy": { "lvl1": "Tooltip", "lvl2": "Props", "lvl3": null }
-  },
-  {
-    "content": "Default Theme",
+    "content": "Theme (Colors, etc)",
     "id": "5c181bbc-1e7b-40b6-aca0-eecbf2d7a26c",
     "type": "lvl1",
     "url": "/docs/theming/theme",
-    "hierarchy": { "lvl1": "Default Theme" }
+    "hierarchy": { "lvl1": "Theme (Colors, etc)" }
   },
   {
     "content": "Colors",
     "id": "94837f78-4047-445e-ae44-5975ec9d1017",
     "type": "lvl2",
     "url": "/docs/theming/theme#colors",
-    "hierarchy": { "lvl1": "Default Theme", "lvl2": "Colors", "lvl3": null }
+    "hierarchy": {
+      "lvl1": "Theme (Colors, etc)",
+      "lvl2": "Colors",
+      "lvl3": null
+    }
   },
   {
     "content": "Black & White",
@@ -5065,7 +2526,7 @@
     "type": "lvl3",
     "url": "/docs/theming/theme#black--white",
     "hierarchy": {
-      "lvl1": "Default Theme",
+      "lvl1": "Theme (Colors, etc)",
       "lvl2": "Colors",
       "lvl3": "Black & White"
     }
@@ -5076,7 +2537,7 @@
     "type": "lvl3",
     "url": "/docs/theming/theme#gray",
     "hierarchy": {
-      "lvl1": "Default Theme",
+      "lvl1": "Theme (Colors, etc)",
       "lvl2": "Black & White",
       "lvl3": "Gray"
     }
@@ -5086,70 +2547,110 @@
     "id": "de4e1609-37e7-4e5b-a067-7ebce76c3604",
     "type": "lvl3",
     "url": "/docs/theming/theme#red",
-    "hierarchy": { "lvl1": "Default Theme", "lvl2": "Gray", "lvl3": "Red" }
+    "hierarchy": {
+      "lvl1": "Theme (Colors, etc)",
+      "lvl2": "Gray",
+      "lvl3": "Red"
+    }
   },
   {
     "content": "Orange",
     "id": "1723df22-41e2-4854-8c71-e79564df955d",
     "type": "lvl3",
     "url": "/docs/theming/theme#orange",
-    "hierarchy": { "lvl1": "Default Theme", "lvl2": "Red", "lvl3": "Orange" }
+    "hierarchy": {
+      "lvl1": "Theme (Colors, etc)",
+      "lvl2": "Red",
+      "lvl3": "Orange"
+    }
   },
   {
     "content": "Yellow",
     "id": "fd5af0b6-87e6-4fac-8dde-40e36009c3ae",
     "type": "lvl3",
     "url": "/docs/theming/theme#yellow",
-    "hierarchy": { "lvl1": "Default Theme", "lvl2": "Orange", "lvl3": "Yellow" }
+    "hierarchy": {
+      "lvl1": "Theme (Colors, etc)",
+      "lvl2": "Orange",
+      "lvl3": "Yellow"
+    }
   },
   {
     "content": "Green",
     "id": "456043f5-1bd2-46b7-a5c0-24815562f0e2",
     "type": "lvl3",
     "url": "/docs/theming/theme#green",
-    "hierarchy": { "lvl1": "Default Theme", "lvl2": "Yellow", "lvl3": "Green" }
+    "hierarchy": {
+      "lvl1": "Theme (Colors, etc)",
+      "lvl2": "Yellow",
+      "lvl3": "Green"
+    }
   },
   {
     "content": "Teal",
     "id": "88c7ca24-b269-44c6-b803-804a516a0d76",
     "type": "lvl3",
     "url": "/docs/theming/theme#teal",
-    "hierarchy": { "lvl1": "Default Theme", "lvl2": "Green", "lvl3": "Teal" }
+    "hierarchy": {
+      "lvl1": "Theme (Colors, etc)",
+      "lvl2": "Green",
+      "lvl3": "Teal"
+    }
   },
   {
     "content": "Blue",
     "id": "64fc3031-1f45-4273-96df-b5fdf2255d05",
     "type": "lvl3",
     "url": "/docs/theming/theme#blue",
-    "hierarchy": { "lvl1": "Default Theme", "lvl2": "Teal", "lvl3": "Blue" }
+    "hierarchy": {
+      "lvl1": "Theme (Colors, etc)",
+      "lvl2": "Teal",
+      "lvl3": "Blue"
+    }
   },
   {
     "content": "Cyan",
     "id": "22dd6119-2560-485d-a9bf-a4fdeeb486f1",
     "type": "lvl3",
     "url": "/docs/theming/theme#cyan",
-    "hierarchy": { "lvl1": "Default Theme", "lvl2": "Blue", "lvl3": "Cyan" }
+    "hierarchy": {
+      "lvl1": "Theme (Colors, etc)",
+      "lvl2": "Blue",
+      "lvl3": "Cyan"
+    }
   },
   {
     "content": "Purple",
     "id": "9a0fac00-6b39-4bba-9b08-44613c93132c",
     "type": "lvl3",
     "url": "/docs/theming/theme#purple",
-    "hierarchy": { "lvl1": "Default Theme", "lvl2": "Cyan", "lvl3": "Purple" }
+    "hierarchy": {
+      "lvl1": "Theme (Colors, etc)",
+      "lvl2": "Cyan",
+      "lvl3": "Purple"
+    }
   },
   {
     "content": "Pink",
     "id": "be90c441-26b5-4d9b-a16d-e791a2d636c3",
     "type": "lvl3",
     "url": "/docs/theming/theme#pink",
-    "hierarchy": { "lvl1": "Default Theme", "lvl2": "Purple", "lvl3": "Pink" }
+    "hierarchy": {
+      "lvl1": "Theme (Colors, etc)",
+      "lvl2": "Purple",
+      "lvl3": "Pink"
+    }
   },
   {
     "content": "Typography",
     "id": "e9afb325-5148-4838-82d2-7950e1cce8e7",
     "type": "lvl2",
     "url": "/docs/theming/theme#typography",
-    "hierarchy": { "lvl1": "Default Theme", "lvl2": "Typography", "lvl3": null }
+    "hierarchy": {
+      "lvl1": "Theme (Colors, etc)",
+      "lvl2": "Typography",
+      "lvl3": null
+    }
   },
   {
     "content": "Breakpoints",
@@ -5157,7 +2658,7 @@
     "type": "lvl2",
     "url": "/docs/theming/theme#breakpoints",
     "hierarchy": {
-      "lvl1": "Default Theme",
+      "lvl1": "Theme (Colors, etc)",
       "lvl2": "Breakpoints",
       "lvl3": null
     }
@@ -5167,14 +2668,22 @@
     "id": "08b7f426-f36e-43b0-b3dd-3135a5765856",
     "type": "lvl2",
     "url": "/docs/theming/theme#spacing",
-    "hierarchy": { "lvl1": "Default Theme", "lvl2": "Spacing", "lvl3": null }
+    "hierarchy": {
+      "lvl1": "Theme (Colors, etc)",
+      "lvl2": "Spacing",
+      "lvl3": null
+    }
   },
   {
     "content": "Sizes",
     "id": "4fcf0ca6-ab66-4b6d-9dd2-e36f99a13218",
     "type": "lvl2",
     "url": "/docs/theming/theme#sizes",
-    "hierarchy": { "lvl1": "Default Theme", "lvl2": "Sizes", "lvl3": null }
+    "hierarchy": {
+      "lvl1": "Theme (Colors, etc)",
+      "lvl2": "Sizes",
+      "lvl3": null
+    }
   },
   {
     "content": "Border radius",
@@ -5182,7 +2691,7 @@
     "type": "lvl2",
     "url": "/docs/theming/theme#border-radius",
     "hierarchy": {
-      "lvl1": "Default Theme",
+      "lvl1": "Theme (Colors, etc)",
       "lvl2": "Border radius",
       "lvl3": null
     }
@@ -5193,7 +2702,7 @@
     "type": "lvl2",
     "url": "/docs/theming/theme#z-index-values",
     "hierarchy": {
-      "lvl1": "Default Theme",
+      "lvl1": "Theme (Colors, etc)",
       "lvl2": "z-index values",
       "lvl3": null
     }

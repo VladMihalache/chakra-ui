@@ -30,20 +30,8 @@
           "open": true,
           "routes": [
             {
-              "title": "Aspect Ratio",
-              "path": "/docs/layout/aspect-ratio"
-            },
-            {
               "title": "Box",
               "path": "/docs/layout/box"
-            },
-            {
-              "title": "Center",
-              "path": "/docs/layout/center"
-            },
-            {
-              "title": "Container",
-              "path": "/docs/layout/container"
             },
             {
               "title": "Flex",
@@ -60,10 +48,6 @@
             {
               "title": "Stack",
               "path": "/docs/layout/stack"
-            },
-            {
-              "title": "Wrap",
-              "path": "/docs/layout/wrap"
             }
           ]
         },
@@ -78,14 +62,6 @@
               "path": "/docs/form/button"
             },
             {
-              "title": "Checkbox",
-              "path": "/docs/form/checkbox"
-            },
-            {
-              "title": "Editable",
-              "path": "/docs/form/editable"
-            },
-            {
               "title": "Form Control",
               "path": "/docs/form/form-control"
             },
@@ -98,32 +74,8 @@
               "path": "/docs/form/input"
             },
             {
-              "title": "Number Input",
-              "path": "/docs/form/number-input"
-            },
-            {
-              "title": "Pin Input",
-              "path": "/docs/form/pin-input"
-            },
-            {
-              "title": "Radio",
-              "path": "/docs/form/radio"
-            },
-            {
-              "title": "Select",
-              "path": "/docs/form/select"
-            },
-            {
-              "title": "Slider",
-              "path": "/docs/form/slider"
-            },
-            {
               "title": "Switch",
               "path": "/docs/form/switch"
-            },
-            {
-              "title": "Textarea",
-              "path": "/docs/form/textarea"
             }
           ]
         },
@@ -142,18 +94,6 @@
               "path": "/docs/components/close-button"
             },
             {
-              "title": "Code",
-              "path": "/docs/data-display/code"
-            },
-            {
-              "title": "Divider",
-              "path": "/docs/data-display/divider"
-            },
-            {
-              "title": "Kbd",
-              "path": "/docs/data-display/kbd"
-            },
-            {
               "title": "List",
               "path": "/docs/data-display/list"
             },
@@ -164,10 +104,6 @@
             {
               "title": "Table",
               "path": "/docs/data-display/table"
-            },
-            {
-              "title": "Tag",
-              "path": "/docs/data-display/tag"
             }
           ]
         },
@@ -178,28 +114,8 @@
           "sort": true,
           "routes": [
             {
-              "title": "Alert",
-              "path": "/docs/feedback/alert"
-            },
-            {
-              "title": "Circular Progress",
-              "path": "/docs/feedback/circular-progress"
-            },
-            {
               "title": "Progress",
               "path": "/docs/feedback/progress"
-            },
-            {
-              "title": "Skeleton",
-              "path": "/docs/feedback/skeleton"
-            },
-            {
-              "title": "Spinner",
-              "path": "/docs/feedback/spinner"
-            },
-            {
-              "title": "Toast",
-              "path": "/docs/feedback/toast"
             }
           ]
         },
@@ -225,10 +141,6 @@
           "sort": true,
           "routes": [
             {
-              "title": "Alert Dialog",
-              "path": "/docs/overlay/alert-dialog"
-            },
-            {
               "title": "Drawer",
               "path": "/docs/overlay/drawer"
             },
@@ -239,34 +151,6 @@
             {
               "title": "Modal",
               "path": "/docs/overlay/modal"
-            },
-            {
-              "title": "Popover",
-              "path": "/docs/overlay/popover"
-            },
-            {
-              "title": "Tooltip",
-              "path": "/docs/overlay/tooltip"
-            }
-          ]
-        },
-        {
-          "title": "Disclosure",
-          "path": "/docs/disclosure",
-          "open": true,
-          "sort": true,
-          "routes": [
-            {
-              "title": "Accordion",
-              "path": "/docs/disclosure/accordion"
-            },
-            {
-              "title": "Tabs",
-              "path": "/docs/disclosure/tabs"
-            },
-            {
-              "title": "Visually Hidden",
-              "path": "/docs/disclosure/visually-hidden"
             }
           ]
         },
@@ -285,8 +169,8 @@
               "path": "/docs/navigation/link"
             },
             {
-              "title": "LinkOverlay",
-              "path": "/docs/navigation/link-overlay"
+              "title": "Navbar",
+              "path": "/docs/navigation/navbar"
             }
           ]
         },
@@ -316,10 +200,6 @@
           "open": true,
           "sort": true,
           "routes": [
-            {
-              "title": "Transitions",
-              "path": "/docs/components/transitions"
-            },
             {
               "title": "Portal",
               "path": "/docs/components/portal"
