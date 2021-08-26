@@ -22,21 +22,9 @@ components are built. By default, it renders a `div` element.
 ## Import
 
 ```js
-import { Box } from "@chakra-ui/react"
-```
-
-## Usage
-
-```jsx
-<Box bg="tomato" w="100%" p={4} color="white">
-  This is the Box
-</Box>
-```
-
-```tsx
-<Box bg="tomato" w="100%" p={4} color="white">
-  This is the Box
-</Box>
+import Card from "components/Card/Card"
+import CardBody from "components/Card/CardBody"
+import CardHeader from "components/Card/CardHeader"
 ```
 
 ### Usage
@@ -44,20 +32,13 @@ import { Box } from "@chakra-ui/react"
 ```jsx
 // Sample card from Airbnb
 
-function AirbnbExample() {
-  const property = {
-    imageUrl: "https://bit.ly/2Z4KKcF",
-    imageAlt: "Rear view of modern home with pool",
-    beds: 3,
-    baths: 2,
-    title: "Modern home in city center in the heart of historic Los Angeles",
-    formattedPrice: "$1,900.00",
-    reviewCount: 34,
-    rating: 4,
-  }
-
+function CardExample() {
+  const exampleBg = useColorModeValue("gray.200", "gray.800")
+  const bg = useColorModeValue("gray.50", "gray.700")
+  const textColor = useColorModeValue("gray.700", "white")
+  const emailColor = useColorModeValue("gray.400", "gray.300")
   return (
-    <Box maxW="sm" borderWidth="1px" borderRadius="lg" overflow="hidden">
+    <>
       <Box
         display="flex"
         flexDirection="column"
@@ -66,101 +47,188 @@ function AirbnbExample() {
         minWidth="0px"
         wordWrap="break-word"
         backgroundClip="border-box"
-      bg= props.colorMode === "dark" ? "gray.700" = "white"
-      width= "100%"
-      boxShadow= "0px 3.5px 5.5px rgba(0, 0, 0, 0.02)"
-      borderRadius= "15px"
-      ></Box>
-    </Box>
-  )
-}
-```
-
-```tsx
-// Sample card from Airbnb
-
-function AirbnbExample() {
-  const property = {
-    imageUrl: "https://bit.ly/2Z4KKcF",
-    imageAlt: "Rear view of modern home with pool",
-    beds: 3,
-    baths: 2,
-    title: "Modern home in city center in the heart of historic Los Angeles",
-    formattedPrice: "$1,900.00",
-    reviewCount: 34,
-    rating: 4,
-  }
-
-  return (
-    <Box maxW="sm" borderWidth="1px" borderRadius="lg" overflow="hidden">
-      <Image src={property.imageUrl} alt={property.imageAlt} />
-
-      <Box p="6">
-        <Box d="flex" alignItems="baseline">
-          <Badge borderRadius="full" px="2" colorScheme="teal">
-            New
-          </Badge>
-          <Box
-            color="gray.500"
-            fontWeight="semibold"
-            letterSpacing="wide"
-            fontSize="xs"
-            textTransform="uppercase"
-            ml="2"
-          >
-            {property.beds} beds &bull; {property.baths} baths
-          </Box>
-        </Box>
-
+        bg={bg}
+        width="100%"
+        boxShadow="0px 3.5px 5.5px rgba(0, 0, 0, 0.02)"
+        borderRadius="15px"
+        p="1rem"
+        my={{ sm: "24px", xl: "0px" }}
+      >
         <Box
-          mt="1"
-          fontWeight="semibold"
-          as="h4"
-          lineHeight="tight"
-          isTruncated
+          display="flex"
+          width="100%"
+          pt="28px"
+          px="21px"
+          p="12px 5px"
+          mb="12px"
         >
-          {property.title}
+          <Text fontSize="lg" color={textColor} fontWeight="bold">
+            Profile Information
+          </Text>
         </Box>
-
-        <Box>
-          {property.formattedPrice}
-          <Box as="span" color="gray.600" fontSize="sm">
-            / wk
-          </Box>
-        </Box>
-
-        <Box d="flex" mt="2" alignItems="center">
-          {Array(5)
-            .fill("")
-            .map((_, i) => (
-              <StarIcon
-                key={i}
-                color={i < property.rating ? "teal.500" : "gray.300"}
-              />
-            ))}
-          <Box as="span" ml="2" color="gray.600" fontSize="sm">
-            {property.reviewCount} reviews
-          </Box>
+        <Box width="100%" px="21px" p="0px 5px">
+          <Flex direction="column">
+            <Text fontSize="md" color="gray.500" fontWeight="400" mb="30px">
+              Hi, I’m Esthera Jackson, Decisions: If you can’t decide, the
+              answer is no. If two equally difficult paths, choose the one more
+              painful in the short term (pain avoidance is creating an illusion
+              of equality).
+            </Text>
+            <Flex alignItems="center" mb="18px">
+              <Text fontSize="md" color={textColor} fontWeight="bold" me="10px">
+                Full Name:{" "}
+              </Text>
+              <Text fontSize="md" color="gray.500" fontWeight="400">
+                Esthera Jackson
+              </Text>
+            </Flex>
+            <Flex alignItems="center" mb="18px">
+              <Text fontSize="md" color={textColor} fontWeight="bold" me="10px">
+                Mobile:{" "}
+              </Text>
+              <Text fontSize="md" color="gray.500" fontWeight="400">
+                (44) 123 1234 123
+              </Text>
+            </Flex>
+            <Flex alignItems="center" mb="18px">
+              <Text fontSize="md" color={textColor} fontWeight="bold" me="10px">
+                Email:{" "}
+              </Text>
+              <Text fontSize="md" color="gray.500" fontWeight="400">
+                esthera@simmmple.com
+              </Text>
+            </Flex>
+            <Flex alignItems="center" mb="18px">
+              <Text fontSize="md" color={textColor} fontWeight="bold" me="10px">
+                Location:{" "}
+              </Text>
+              <Text fontSize="md" color="gray.500" fontWeight="400">
+                United States
+              </Text>
+            </Flex>
+            <Flex alignItems="center" mb="18px">
+              <Text fontSize="md" color={textColor} fontWeight="bold" me="10px">
+                Social Media:{" "}
+              </Text>
+              <Flex>
+                <Link
+                  href="#"
+                  color="teal.300"
+                  fontSize="lg"
+                  me="10px"
+                  _hover={{ color: "teal.300" }}
+                >
+                  <PhoneIcon />
+                </Link>
+                <Link
+                  href="#"
+                  color="teal.300"
+                  fontSize="lg"
+                  me="10px"
+                  _hover={{ color: "teal.300" }}
+                >
+                  <PhoneIcon />
+                </Link>
+                <Link
+                  href="#"
+                  color="teal.300"
+                  fontSize="lg"
+                  me="10px"
+                  _hover={{ color: "teal.300" }}
+                >
+                  <PhoneIcon />
+                </Link>
+              </Flex>
+            </Flex>
+          </Flex>
         </Box>
       </Box>
-    </Box>
+    </>
   )
 }
 ```
 
-### as prop
-
-You can use the `as` prop to change the element render, just like
-styled-components.
-
-```jsx
-<Box as="button" borderRadius="md" bg="tomato" color="white" px={4} h={8}>
-  Button
-</Box>
-```
-
 ```tsx
-<Box as="button" borderRadius="md" bg="tomato" color="white" px={4} h={8}>
-  Button
-</Box>
+<Card p="1rem" my={{ sm: "24px", xl: "0px" }}>
+  <CardHeader p="12px 5px" mb="12px">
+    <Text fontSize="lg" color={textColor} fontWeight="bold">
+      Profile Information
+    </Text>
+  </CardHeader>
+  <CardBody p="0px 5px">
+    <Flex direction="column">
+      <Text fontSize="md" color="gray.500" fontWeight="400" mb="30px">
+        Hi, I’m Esthera Jackson, Decisions: If you can’t decide, the answer is
+        no. If two equally difficult paths, choose the one more painful in the
+        short term (pain avoidance is creating an illusion of equality).
+      </Text>
+      <Flex alignItems="center" mb="18px">
+        <Text fontSize="md" color={textColor} fontWeight="bold" me="10px">
+          Full Name:{" "}
+        </Text>
+        <Text fontSize="md" color="gray.500" fontWeight="400">
+          Esthera Jackson
+        </Text>
+      </Flex>
+      <Flex alignItems="center" mb="18px">
+        <Text fontSize="md" color={textColor} fontWeight="bold" me="10px">
+          Mobile:{" "}
+        </Text>
+        <Text fontSize="md" color="gray.500" fontWeight="400">
+          (44) 123 1234 123
+        </Text>
+      </Flex>
+      <Flex alignItems="center" mb="18px">
+        <Text fontSize="md" color={textColor} fontWeight="bold" me="10px">
+          Email:{" "}
+        </Text>
+        <Text fontSize="md" color="gray.500" fontWeight="400">
+          esthera@simmmple.com
+        </Text>
+      </Flex>
+      <Flex alignItems="center" mb="18px">
+        <Text fontSize="md" color={textColor} fontWeight="bold" me="10px">
+          Location:{" "}
+        </Text>
+        <Text fontSize="md" color="gray.500" fontWeight="400">
+          United States
+        </Text>
+      </Flex>
+      <Flex alignItems="center" mb="18px">
+        <Text fontSize="md" color={textColor} fontWeight="bold" me="10px">
+          Social Media:{" "}
+        </Text>
+        <Flex>
+          <Link
+            href="#"
+            color="teal.300"
+            fontSize="lg"
+            me="10px"
+            _hover={{ color: "teal.300" }}
+          >
+            <Icon as={FaFacebook} />
+          </Link>
+          <Link
+            href="#"
+            color="teal.300"
+            fontSize="lg"
+            me="10px"
+            _hover={{ color: "teal.300" }}
+          >
+            <Icon as={FaInstagram} />
+          </Link>
+          <Link
+            href="#"
+            color="teal.300"
+            fontSize="lg"
+            me="10px"
+            _hover={{ color: "teal.300" }}
+          >
+            <Icon as={FaTwitter} />
+          </Link>
+        </Flex>
+      </Flex>
+    </Flex>
+  </CardBody>
+</Card>
 ```
