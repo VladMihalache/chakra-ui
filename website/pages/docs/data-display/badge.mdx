@@ -20,6 +20,10 @@ import { Badge } from "@chakra-ui/react"
 <Badge>Default</Badge>
 ```
 
+```tsx
+<Badge>Default</Badge>
+```
+
 ### Badge Color
 
 Pass the `colorScheme` prop to customize the color of the Badge. `colorScheme`
@@ -27,6 +31,15 @@ can be any **color key** that exists in `theme.colors`.
 [Learn more about theming](/docs/theming/theme).
 
 ```jsx
+<Stack direction="row">
+  <Badge>Default</Badge>
+  <Badge colorScheme="green">Success</Badge>
+  <Badge colorScheme="red">Removed</Badge>
+  <Badge colorScheme="purple">New</Badge>
+</Stack>
+```
+
+```tsx
 <Stack direction="row">
   <Badge>Default</Badge>
   <Badge colorScheme="green">Success</Badge>
@@ -54,14 +67,43 @@ get a different style.
 </Stack>
 ```
 
+```tsx
+<Stack direction="row">
+  <Badge variant="outline" colorScheme="green">
+    Default
+  </Badge>
+  <Badge variant="solid" colorScheme="green">
+    Success
+  </Badge>
+  <Badge variant="subtle" colorScheme="green">
+    Removed
+  </Badge>
+</Stack>
+```
+
 ## Composition
 
 ```jsx
 <Flex>
-  <Avatar src="https://bit.ly/sage-adebayo" />
+  <Avatar src="" />
   <Box ml="3">
     <Text fontWeight="bold">
-      Segun Adebayo
+      Fred Michael
+      <Badge ml="1" colorScheme="green">
+        New
+      </Badge>
+    </Text>
+    <Text fontSize="sm">UI Engineer</Text>
+  </Box>
+</Flex>
+```
+
+```tsx
+<Flex>
+  <Avatar src="" />
+  <Box ml="3">
+    <Text fontWeight="bold">
+      Fred Michael
       <Badge ml="1" colorScheme="green">
         New
       </Badge>
@@ -75,7 +117,16 @@ You can also change the size of the badge by passing the `fontSize` prop.
 
 ```jsx
 <Text fontSize="xl" fontWeight="bold">
-  Segun Adebayo
+  Fred Michael
+  <Badge ml="1" fontSize="0.8em" colorScheme="green">
+    New
+  </Badge>
+</Text>
+```
+
+```tsx
+<Text fontSize="xl" fontWeight="bold">
+  Fred Michael
   <Badge ml="1" fontSize="0.8em" colorScheme="green">
     New
   </Badge>

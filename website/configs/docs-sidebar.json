@@ -62,6 +62,14 @@
               "path": "/docs/form/button"
             },
             {
+              "title": "Cards",
+              "path": "/docs/form/cards"
+            },
+            {
+              "title": "Charts",
+              "path": "/docs/form/charts"
+            },
+            {
               "title": "Form Control",
               "path": "/docs/form/form-control"
             },
@@ -76,6 +84,14 @@
             {
               "title": "Switch",
               "path": "/docs/form/switch"
+            },
+            {
+              "title": "Separator",
+              "path": "/docs/form/separator"
+            },
+            {
+              "title": "Timeline",
+              "path": "/docs/form/timeline"
             }
           ]
         },

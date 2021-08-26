@@ -51,15 +51,6 @@ function ReactLiveBlock({ editable, rawCode, ...rest }) {
   return (
     <LiveProvider {...liveProviderProps}>
       <LiveCodePreview zIndex="1" />
-      <Box position="relative" zIndex="0">
-        {editable && (
-          <CodeContainer>
-            <LiveEditor onChange={onChange} style={liveEditorStyle} />
-          </CodeContainer>
-        )}
-        <CopyButton code={editorCode} />
-        {editable && <EditableNotice />}
-      </Box>
       {editable && <LiveError style={liveErrorStyle} />}
     </LiveProvider>
   )

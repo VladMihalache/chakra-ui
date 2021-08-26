@@ -34,6 +34,16 @@ applying a `gap` or space between the grid items.
 </Grid>
 ```
 
+```tsx
+<Grid templateColumns="repeat(5, 1fr)" gap={6}>
+  <Box w="100%" h="10" bg="blue.500" />
+  <Box w="100%" h="10" bg="blue.500" />
+  <Box w="100%" h="10" bg="blue.500" />
+  <Box w="100%" h="10" bg="blue.500" />
+  <Box w="100%" h="10" bg="blue.500" />
+</Grid>
+```
+
 ## Spanning columns
 
 In some layouts, you may need certain grid items to span specific amount of
@@ -56,12 +66,33 @@ the `templateColumns` and `templateRows`.
 </Grid>
 ```
 
+```tsx
+<Grid
+  h="200px"
+  templateRows="repeat(2, 1fr)"
+  templateColumns="repeat(5, 1fr)"
+  gap={4}
+>
+  <GridItem rowSpan={2} colSpan={1} bg="tomato" />
+  <GridItem colSpan={2} bg="papayawhip" />
+  <GridItem colSpan={2} bg="papayawhip" />
+  <GridItem colSpan={4} bg="tomato" />
+</Grid>
+```
+
 ## Starting and ending lines
 
 Pass the `colStart` and `colEnd` prop to `GridItem` component to make an element
 start or end at the `nth` grid position.
 
 ```jsx
+<Grid templateColumns="repeat(5, 1fr)" gap={4}>
+  <GridItem colSpan={2} h="10" bg="tomato" />
+  <GridItem colStart={4} colEnd={6} h="10" bg="papayawhip" />
+</Grid>
+```
+
+```tsx
 <Grid templateColumns="repeat(5, 1fr)" gap={4}>
   <GridItem colSpan={2} h="10" bg="tomato" />
   <GridItem colStart={4} colEnd={6} h="10" bg="papayawhip" />

@@ -85,6 +85,19 @@ function Example() {
 </HStack>
 ```
 
+```tsx
+<HStack>
+  {/* The default icon size is 1em (16px) */}
+  <Icon as={MdSettings} />
+
+  {/* Use the `boxSize` prop to change the icon size */}
+  <Icon as={MdReceipt} w={6} h={6} />
+
+  {/* Use the `color` prop to change the icon color */}
+  <Icon as={MdGroupWork} w={8} h={8} color="red.500" />
+</HStack>
+```
+
 ## Creating your custom icons
 
 Chakra provides two methods for creating your custom icons:
@@ -98,6 +111,10 @@ They can be imported from `@chakra-ui/react`:
 import { Icon, createIcon } from "@chakra-ui/react"
 ```
 
+```tsx live=false
+import { Icon, createIcon } from "@chakra-ui/react"
+```
+
 Both `Icon` and `createIcon` enable you to style the icon using
 [style props](/docs/features/style-props).
 
@@ -106,6 +123,15 @@ Both `Icon` and `createIcon` enable you to style the icon using
 The `Icon` component renders as an `svg` element.
 
 ```jsx
+<Icon viewBox="0 0 200 200" color="red.500">
+  <path
+    fill="currentColor"
+    d="M 100, 100 m -75, 0 a 75,75 0 1,0 150,0 a 75,75 0 1,0 -150,0"
+  />
+</Icon>
+```
+
+```tsx
 <Icon viewBox="0 0 200 200" color="red.500">
   <path
     fill="currentColor"
@@ -130,6 +156,19 @@ const CircleIcon = (props) => (
 And style them with style props:
 
 ```jsx
+<HStack>
+  {/* The default icon size is 1em (16px) */}
+  <CircleIcon />
+
+  {/* Use the `boxSize` prop to change the icon size */}
+  <CircleIcon boxSize={6} />
+
+  {/* Use the `color` prop to change the icon color */}
+  <CircleIcon boxSize={8} color="red.500" />
+</HStack>
+```
+
+```tsx
 <HStack>
   {/* The default icon size is 1em (16px) */}
   <CircleIcon />
@@ -184,6 +223,10 @@ export const UpDownIcon = createIcon({
 When `children` is not provided, the `Icon` component renders a fallback icon.
 
 ```jsx
+<Icon />
+```
+
+```tsx
 <Icon />
 ```
 

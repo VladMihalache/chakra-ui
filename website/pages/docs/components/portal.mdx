@@ -31,6 +31,17 @@ function Example() {
 }
 ```
 
+```tsx
+function Example() {
+  return (
+    <Box bg="red.400" color="white">
+      I'm here,
+      <Portal>This text is portaled at the end of document.body!</Portal>
+    </Box>
+  )
+}
+```
+
 ### Using a custom container
 
 You can render the contents within a portal to a different DOM node, instead of
@@ -38,6 +49,23 @@ the default `document.body`. Pass the `containerRef` prop and set its value to
 the `ref` of the container you'd like to use.
 
 ```jsx
+function Example() {
+  const ref = React.useRef()
+  return (
+    <Box bg="red.400" color="white">
+      I'm here,
+      <Portal containerRef={ref}>
+        Portal: This text is portaled to the yellow box!
+      </Portal>
+      <Box ref={ref} bg="yellow.500">
+        <div>Container: Hey,</div>
+      </Box>
+    </Box>
+  )
+}
+```
+
+```tsx
 function Example() {
   const ref = React.useRef()
   return (
@@ -76,12 +104,48 @@ function Example() {
 }
 ```
 
+```tsx
+function Example() {
+  const ref = React.useRef()
+  return (
+    <div>
+      <Portal containerRef={ref}>
+        <Box bg="teal.500" color="white">
+          Parent: Hey welcome,
+          <Portal>Child: I'm attached to my parent portal</Portal>
+        </Box>
+      </Portal>
+      <Box bg="red.400" color="white" ref={ref} />
+    </div>
+  )
+}
+```
+
 ### Opting out of portal nesting
 
 In some cases, you might not want portal nodes to be nested to their parent
 portals. To opt out of this, pass `appendToParentPortal` and set it to `false`
 
 ```jsx
+function Example() {
+  const ref = React.useRef()
+  return (
+    <div>
+      <Portal containerRef={ref}>
+        <Box bg="teal.500" color="white">
+          Parent: Hey welcome,
+          <Portal appendToParentPortal={false}>
+            Child: I'm going to document.body
+          </Portal>
+        </Box>
+      </Portal>
+      <div style={{ background: "red" }} ref={ref} />
+    </div>
+  )
+}
+```
+
+```tsx
 function Example() {
   const ref = React.useRef()
   return (

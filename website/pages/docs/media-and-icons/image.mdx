@@ -21,7 +21,19 @@ import { Image } from "@chakra-ui/react"
 
 ```jsx
 <Box boxSize="sm">
-  <Image src="https://bit.ly/sage-adebayo" alt="Segun Adebayo" />
+  <Image
+    src="https://demos.creative-tim.com/purity-ui-dashboard/static/media/signInImage.eeb0c777.png"
+    alt="Purity UI Dashboard"
+  />
+</Box>
+```
+
+```tsx
+<Box boxSize="sm">
+  <Image
+    src="https://demos.creative-tim.com/purity-ui-dashboard/static/media/signInImage.eeb0c777.png"
+    alt="Purity UI Dashboard"
+  />
 </Box>
 ```
 
@@ -34,16 +46,42 @@ The size of the image can be adjusted using the `boxSize` prop.
   <Image
     boxSize="100px"
     objectFit="cover"
-    src="https://bit.ly/sage-adebayo"
-    alt="Segun Adebayo"
+    src="https://demos.creative-tim.com/purity-ui-dashboard/static/media/signInImage.eeb0c777.png"
+    alt="Purity UI Dashboard"
   />
   <Image
     boxSize="150px"
     objectFit="cover"
-    src="https://bit.ly/dan-abramov"
-    alt="Dan Abramov"
+    src="https://demos.creative-tim.com/purity-ui-dashboard/static/media/signInImage.eeb0c777.png"
+    alt="Free Chakra UI Dashboard"
   />
-  <Image boxSize="200px" src="https://bit.ly/dan-abramov" alt="Dan Abramov" />
+  <Image
+    boxSize="200px"
+    src="https://demos.creative-tim.com/purity-ui-dashboard/static/media/signInImage.eeb0c777.png"
+    alt="Free Chakra UI Dashboard"
+  />
+</Stack>
+```
+
+```tsx
+<Stack direction="row">
+  <Image
+    boxSize="100px"
+    objectFit="cover"
+    src="https://demos.creative-tim.com/purity-ui-dashboard/static/media/signInImage.eeb0c777.png"
+    alt="Purity UI Dashboard"
+  />
+  <Image
+    boxSize="150px"
+    objectFit="cover"
+    src="https://demos.creative-tim.com/purity-ui-dashboard/static/media/signInImage.eeb0c777.png"
+    alt="Free Chakra UI Dashboard"
+  />
+  <Image
+    boxSize="200px"
+    src="https://demos.creative-tim.com/purity-ui-dashboard/static/media/signInImage.eeb0c777.png"
+    alt="Free Chakra UI Dashboard"
+  />
 </Stack>
 ```
 
@@ -53,8 +91,17 @@ The size of the image can be adjusted using the `boxSize` prop.
 <Image
   borderRadius="full"
   boxSize="150px"
+  src="https://demos.creative-tim.com/purity-ui-dashboard/static/media/signInImage.eeb0c777.png"
+  alt="Purity UI Dashboard"
+/>
+```
+
+```tsx
+<Image
+  borderRadius="full"
+  boxSize="150px"
   src="https://bit.ly/sage-adebayo"
-  alt="Segun Adebayo"
+  alt="Purity UI Dashboard"
 />
 ```
 
@@ -65,6 +112,10 @@ the image. You can also opt out of this behavior by passing the `ignoreFallback`
 prop.
 
 ```jsx
+<Image src="gibbresh.png" fallbackSrc="https://via.placeholder.com/150" />
+```
+
+```tsx
 <Image src="gibbresh.png" fallbackSrc="https://via.placeholder.com/150" />
 ```
 

@@ -21,12 +21,24 @@ import { IconButton } from "@chakra-ui/react"
 <IconButton aria-label="Search database" icon={<SearchIcon />} />
 ```
 
+```tsx
+<IconButton aria-label="Search database" icon={<SearchIcon />} />
+```
+
 ### Button Colors
 
 The `IconButton` component accepts most of the props from the `Button`
 component, so we can use `colorScheme` prop to change the color of the button.
 
 ```jsx
+<IconButton
+  colorScheme="blue"
+  aria-label="Search database"
+  icon={<SearchIcon />}
+/>
+```
+
+```tsx
 <IconButton
   colorScheme="blue"
   aria-label="Search database"
@@ -42,7 +54,16 @@ button.
 ```jsx
 <IconButton
   colorScheme="teal"
-  aria-label="Call Segun"
+  aria-label="Call Fred"
+  size="lg"
+  icon={<PhoneIcon />}
+/>
+```
+
+```tsx
+<IconButton
+  colorScheme="teal"
+  aria-label="Call Fred"
   size="lg"
   icon={<PhoneIcon />}
 />
@@ -62,6 +83,15 @@ button.
 />
 ```
 
+```tsx
+<IconButton
+  variant="outline"
+  colorScheme="teal"
+  aria-label="Send email"
+  icon={<EmailIcon />}
+/>
+```
+
 ### With custom icon
 
 You can also use icons from popular libraries like
@@ -72,7 +102,17 @@ the button.
 <IconButton
   variant="outline"
   colorScheme="teal"
-  aria-label="Call Sage"
+  aria-label="Call Fred"
+  fontSize="20px"
+  icon={<MdPhone />}
+/>
+```
+
+```tsx
+<IconButton
+  variant="outline"
+  colorScheme="teal"
+  aria-label="Call Fred"
   fontSize="20px"
   icon={<MdPhone />}
 />

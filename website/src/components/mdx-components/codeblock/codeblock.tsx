@@ -5,6 +5,7 @@ import React, { useEffect } from "react"
 import CodeContainer from "./code-container"
 import CopyButton from "./copy-button"
 import Highlight from "./highlight"
+import { liveEditorStyle, liveErrorStyle } from "./styles"
 
 const ReactLiveBlock = dynamic(() => import("./react-live-block"))
 

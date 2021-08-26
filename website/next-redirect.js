@@ -48,6 +48,16 @@ async function redirect() {
       permanent: true,
     },
     {
+      source: "/cards",
+      destination: "/docs/form/cards",
+      permanent: true,
+    },
+    {
+      source: "/charts",
+      destination: "/docs/form/cards",
+      permanent: true,
+    },
+    {
       source: "/closebutton",
       destination: "/docs/components/close-button",
       permanent: true,
@@ -91,6 +101,11 @@ async function redirect() {
     {
       source: "/icon",
       destination: "/docs/media-and-icons/icon",
+      permanent: true,
+    },
+    {
+      source: "/separator",
+      destination: "/docs/form/separator",
       permanent: true,
     },
     {
@@ -165,6 +180,11 @@ async function redirect() {
       permanent: true,
     },
     {
+      source: "/timeline",
+      destination: "/docs/form/timeline",
+      permanent: true,
+    },
+    {
       source: "/tabs",
       destination: "/docs/disclosure/tabs",
       permanent: true,
@@ -172,11 +192,6 @@ async function redirect() {
     {
       source: "/text",
       destination: "/docs/typography/text",
-      permanent: true,
-    },
-    {
-      source: "/textarea",
-      destination: "/docs/form/textarea",
       permanent: true,
     },
   ]

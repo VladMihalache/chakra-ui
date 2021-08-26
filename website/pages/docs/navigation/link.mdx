@@ -18,20 +18,39 @@ import { ExternalLinkIcon } from "@chakra-ui/icons"
 ## Usage
 
 ```jsx
-<Link>Chakra UI</Link>
+<Link>Purity UI Dashboard</Link>
+```
+
+```tsx
+<Link>Purity UI Dashboard</Link>
 ```
 
 ### External Link
 
 ```jsx
-<Link href="https://chakra-ui.com" isExternal>
-  Chakra Design system <ExternalLinkIcon mx="2px" />
+<Link href="https://creative-tim.com?ref=docs-pud" isExternal>
+  Purity UI Dashboard <ExternalLinkIcon mx="2px" />
+</Link>
+```
+
+```tsx
+<Link href="https://creative-tim.com?ref=docs-pud" isExternal>
+  Purity UI Dashboard <ExternalLinkIcon mx="2px" />
 </Link>
 ```
 
 ### Link inline with text
 
 ```jsx
+<Text>
+  Did you know that{" "}
+  <Link color="teal.500" href="#">
+    links can live inline with text
+  </Link>
+</Text>
+```
+
+```tsx
 <Text>
   Did you know that{" "}
   <Link color="teal.500" href="#">
@@ -47,6 +66,15 @@ you need to do is pass the `as` prop. It'll replace the rendered `a` tag with
 Reach's `Link`.
 
 ```jsx live=false
+// 1. import { Link as ReachLink } from "@reach/router"
+
+// 2. Then use it like this
+<Link as={ReachLink} to="/home">
+  Home
+</Link>
+```
+
+```tsx live=false
 // 1. import { Link as ReachLink } from "@reach/router"
 
 // 2. Then use it like this
