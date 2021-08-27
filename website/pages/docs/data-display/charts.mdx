@@ -7,197 +7,282 @@ description:
   components are built. By default, it renders a `div` element
 ---
 
-Box is the most abstract component on top of which all other Purity UI Dashboard
-components are built. By default, it renders a `div` element.
-
-<br />
-
-**The Box component is useful because it helps with 3 common use cases:**
-
-- Create responsive layouts with ease.
-- Provide a shorthand way to pass styles via props (`bg` instead of
-  `backgroundColor`).
-- Compose new component and allow for override using the `as` prop.
+For the charts, we used the
+[ApexCharts](https://apexcharts.com/react-chart-demos/) library. Here are the
+structures 2 dummy charts alongside their options and dummy data.
 
 ## Import
 
 ```js
-import { Box } from "@chakra-ui/react"
+import React, { Component } from "react"
+import Card from "components/Card/Card"
+import Chart from "react-apexcharts"
+//
+import { barChartData, barChartOptions } from "variables/charts"
+```
+
+## Data and options for the Bar Chart
+
+```tsx
+// The data and options should look like this:
+
+export const barChartData = [
+  {
+    name: "Sales",
+    data: [330, 250, 110, 300, 490, 350, 270, 130, 425],
+  },
+]
+
+export const barChartOptions = {
+  chart: {
+    toolbar: {
+      show: false,
+    },
+  },
+  tooltip: {
+    style: {
+      backgroundColor: "red",
+      fontSize: "12px",
+      fontFamily: undefined,
+    },
+    onDatasetHover: {
+      style: {
+        backgroundColor: "red",
+        fontSize: "12px",
+        fontFamily: undefined,
+      },
+    },
+    theme: "dark",
+  },
+  xaxis: {
+    categories: ["Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
+    show: false,
+    labels: {
+      show: false,
+      style: {
+        colors: "#fff",
+        fontSize: "12px",
+      },
+    },
+    axisBorder: {
+      show: false,
+    },
+    axisTicks: {
+      show: false,
+    },
+  },
+  yaxis: {
+    show: true,
+    color: "#fff",
+    labels: {
+      show: true,
+      style: {
+        colors: "#fff",
+        fontSize: "14px",
+      },
+    },
+  },
+  grid: {
+    show: false,
+  },
+  fill: {
+    colors: "#fff",
+  },
+  dataLabels: {
+    enabled: false,
+  },
+  plotOptions: {
+    bar: {
+      borderRadius: 8,
+      columnWidth: "12px",
+    },
+  },
+  responsive: [
+    {
+      breakpoint: 768,
+      options: {
+        plotOptions: {
+          bar: {
+            borderRadius: 0,
+          },
+        },
+      },
+    },
+  ],
+}
 ```
 
 ## Usage
 
-```jsx
-<Box bg="tomato" w="100%" p={4} color="white">
-  This is the Box
-</Box>
-```
-
 ```tsx
-<Box bg="tomato" w="100%" p={4} color="white">
-  This is the Box
-</Box>
-```
-
-### Usage
-
-```jsx
-// Sample card from Airbnb
-
-function AirbnbExample() {
-  const property = {
-    imageUrl: "https://bit.ly/2Z4KKcF",
-    imageAlt: "Rear view of modern home with pool",
-    beds: 3,
-    baths: 2,
-    title: "Modern home in city center in the heart of historic Los Angeles",
-    formattedPrice: "$1,900.00",
-    reviewCount: 34,
-    rating: 4,
+class BarChart extends Component {
+  constructor(props) {
+    super(props)
+    this.state = {
+      chartData: [],
+      chartOptions: {},
+    }
   }
 
-  return (
-    <Box maxW="sm" borderWidth="1px" borderRadius="lg" overflow="hidden">
-      <Image src={property.imageUrl} alt={property.imageAlt} />
+  componentDidMount() {
+    this.setState({
+      chartData: barChartData,
+      chartOptions: barChartOptions,
+    })
+  }
 
-      <Box p="6">
-        <Box d="flex" alignItems="baseline">
-          <Badge borderRadius="full" px="2" colorScheme="teal">
-            New
-          </Badge>
-          <Box
-            color="gray.500"
-            fontWeight="semibold"
-            letterSpacing="wide"
-            fontSize="xs"
-            textTransform="uppercase"
-            ml="2"
-          >
-            {property.beds} beds &bull; {property.baths} baths
-          </Box>
-        </Box>
+  render() {
+    return (
+      <Card
+        py="1rem"
+        height={{ sm: "200px" }}
+        width="100%"
+        bg="linear-gradient(81.62deg, #313860 2.25%, #151928 79.87%)"
+        position="relative"
+      >
+        <Chart
+          options={this.state.chartOptions}
+          series={this.state.chartData}
+          type="bar"
+          width="100%"
+          height="100%"
+        />
+      </Card>
+    )
+  }
+}
 
-        <Box
-          mt="1"
-          fontWeight="semibold"
-          as="h4"
-          lineHeight="tight"
-          isTruncated
-        >
-          {property.title}
-        </Box>
+export default BarChart
+```
 
-        <Box>
-          {property.formattedPrice}
-          <Box as="span" color="gray.600" fontSize="sm">
-            / wk
-          </Box>
-        </Box>
+## Import
 
-        <Box d="flex" mt="2" alignItems="center">
-          {Array(5)
-            .fill("")
-            .map((_, i) => (
-              <StarIcon
-                key={i}
-                color={i < property.rating ? "teal.500" : "gray.300"}
-              />
-            ))}
-          <Box as="span" ml="2" color="gray.600" fontSize="sm">
-            {property.reviewCount} reviews
-          </Box>
-        </Box>
-      </Box>
-    </Box>
-  )
+```js
+import React from "react"
+import ReactApexChart from "react-apexcharts"
+import { lineChartData, lineChartOptions } from "variables/charts"
+```
+
+## Data and options for the Line Chart
+
+```tsx
+// The data and options should look like this:
+
+export const lineChartData = [
+  {
+    name: "Mobile apps",
+    data: [50, 40, 300, 220, 500, 250, 400, 230, 500],
+  },
+  {
+    name: "Websites",
+    data: [30, 90, 40, 140, 290, 290, 340, 230, 400],
+  },
+]
+
+export const lineChartOptions = {
+  chart: {
+    toolbar: {
+      show: false,
+    },
+  },
+  tooltip: {
+    theme: "dark",
+  },
+  dataLabels: {
+    enabled: false,
+  },
+  stroke: {
+    curve: "smooth",
+  },
+  xaxis: {
+    type: "datetime",
+    categories: [
+      "Jan",
+      "Feb",
+      "Mar",
+      "Apr",
+      "May",
+      "Jun",
+      "Jul",
+      "Aug",
+      "Sep",
+      "Oct",
+      "Nov",
+      "Dec",
+    ],
+    labels: {
+      style: {
+        colors: "#c8cfca",
+        fontSize: "12px",
+      },
+    },
+  },
+  yaxis: {
+    labels: {
+      style: {
+        colors: "#c8cfca",
+        fontSize: "12px",
+      },
+    },
+  },
+  legend: {
+    show: false,
+  },
+  grid: {
+    strokeDashArray: 5,
+  },
+  fill: {
+    type: "gradient",
+    gradient: {
+      shade: "light",
+      type: "vertical",
+      shadeIntensity: 0.5,
+      gradientToColors: undefined, // optional, if not defined - uses the shades of same color in series
+      inverseColors: true,
+      opacityFrom: 0.8,
+      opacityTo: 0,
+      stops: [],
+    },
+    colors: ["#4FD1C5", "#2D3748"],
+  },
+  colors: ["#4FD1C5", "#2D3748"],
 }
 ```
 
-```tsx
-// Sample card from Airbnb
+## Usage
 
-function AirbnbExample() {
-  const property = {
-    imageUrl: "https://bit.ly/2Z4KKcF",
-    imageAlt: "Rear view of modern home with pool",
-    beds: 3,
-    baths: 2,
-    title: "Modern home in city center in the heart of historic Los Angeles",
-    formattedPrice: "$1,900.00",
-    reviewCount: 34,
-    rating: 4,
+```tsx
+class LineChart extends React.Component {
+  constructor(props) {
+    super(props)
+
+    this.state = {
+      chartData: [],
+      chartOptions: {},
+    }
   }
 
-  return (
-    <Box maxW="sm" borderWidth="1px" borderRadius="lg" overflow="hidden">
-      <Image src={property.imageUrl} alt={property.imageAlt} />
+  componentDidMount() {
+    this.setState({
+      chartData: lineChartData,
+      chartOptions: lineChartOptions,
+    })
+  }
 
-      <Box p="6">
-        <Box d="flex" alignItems="baseline">
-          <Badge borderRadius="full" px="2" colorScheme="teal">
-            New
-          </Badge>
-          <Box
-            color="gray.500"
-            fontWeight="semibold"
-            letterSpacing="wide"
-            fontSize="xs"
-            textTransform="uppercase"
-            ml="2"
-          >
-            {property.beds} beds &bull; {property.baths} baths
-          </Box>
-        </Box>
-
-        <Box
-          mt="1"
-          fontWeight="semibold"
-          as="h4"
-          lineHeight="tight"
-          isTruncated
-        >
-          {property.title}
-        </Box>
-
-        <Box>
-          {property.formattedPrice}
-          <Box as="span" color="gray.600" fontSize="sm">
-            / wk
-          </Box>
-        </Box>
-
-        <Box d="flex" mt="2" alignItems="center">
-          {Array(5)
-            .fill("")
-            .map((_, i) => (
-              <StarIcon
-                key={i}
-                color={i < property.rating ? "teal.500" : "gray.300"}
-              />
-            ))}
-          <Box as="span" ml="2" color="gray.600" fontSize="sm">
-            {property.reviewCount} reviews
-          </Box>
-        </Box>
-      </Box>
-    </Box>
-  )
+  render() {
+    return (
+      <ReactApexChart
+        options={this.state.chartOptions}
+        series={this.state.chartData}
+        type="area"
+        width="100%"
+        height="100%"
+      />
+    )
+  }
 }
-```
 
-### as prop
+export default LineChart
 
-You can use the `as` prop to change the element render, just like
-styled-components.
-
-```jsx
-<Box as="button" borderRadius="md" bg="tomato" color="white" px={4} h={8}>
-  Button
-</Box>
-```
-
-```tsx
-<Box as="button" borderRadius="md" bg="tomato" color="white" px={4} h={8}>
-  Button
-</Box>
+export default BarChart
 ```
