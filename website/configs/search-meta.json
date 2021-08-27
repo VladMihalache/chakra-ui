@@ -32,6 +32,17 @@
     }
   },
   {
+    "content": "Routing",
+    "id": "0829f3e6-4bba-4f1b-b187-dc04433f4602",
+    "type": "lvl3",
+    "url": "/docs/routing",
+    "hierarchy": {
+      "lvl1": "Routing",
+      "lvl2": "Sidebar",
+      "lvl3": "Navbar Size"
+    }
+  },
+  {
     "content": "Props",
     "id": "cfe85e1f-ad4e-4573-85c0-39fef0cf3b2c",
     "type": "lvl2",
@@ -51,6 +62,26 @@
     "type": "lvl2",
     "url": "/docs/data-display/badge#import",
     "hierarchy": { "lvl1": "Badge", "lvl2": "Import", "lvl3": null }
+  },
+  {
+    "content": "Timeline",
+    "id": "8faaf9b6-eaae-4743-9335-6d0885d3e432",
+    "type": "lvl2",
+    "url": "/docs/data-display/timeline",
+    "hierarchy": {
+      "lvl1": "Timeline",
+      "lvl2": "Table"
+    }
+  },
+  {
+    "content": "Charts",
+    "id": "8faaf9b6-eaae-4743-9335-6d0885d3eo43",
+    "type": "lvl2",
+    "url": "/docs/data-display/charts",
+    "hierarchy": {
+      "lvl1": "Charts",
+      "lvl2": "Data Display"
+    }
   },
   {
     "content": "Usage",
@@ -1229,6 +1260,17 @@
     "hierarchy": { "lvl1": "Box" }
   },
   {
+    "content": "Fixed Plugin",
+    "id": "64f472eb-44a4-433a-b85f-c74b88bf9412",
+    "type": "lvl3",
+    "url": "/docs/layout/fixed-plugin",
+    "hierarchy": {
+      "lvl1": "Fixed Plugin",
+      "lvl2": "Configurator",
+      "lvl3": "Config"
+    }
+  },
+  {
     "content": "Import",
     "id": "a7ef468d-1969-40f3-b5d0-d3f4dd6f0183",
     "type": "lvl2",
@@ -1848,6 +1890,47 @@
     }
   },
   {
+    "content": "Separator",
+    "id": "07a43522-3a3a-4e62-9e49-576e2c483041",
+    "type": "lvl2",
+    "url": "/docs/layout/separator",
+    "hierarchy": {
+      "lvl1": "Separator",
+      "lvl2": "Separators"
+    }
+  },
+  {
+    "content": "Cards",
+    "id": "07a43522-3a3a-4e62-9e49-576e2c483414",
+    "type": "lvl2",
+    "url": "/docs/layout/cards",
+    "hierarchy": {
+      "lvl1": "Cards",
+      "lvl2": "Card Body",
+      "lvl3": "Card Header"
+    }
+  },
+  {
+    "content": "Using an icon as the separator",
+    "id": "07a43522-3a3a-4e62-9e49-576e2c4830b8",
+    "type": "lvl3",
+    "url": "/docs/navigation/breadcrumb#using-an-icon-as-the-separator",
+    "hierarchy": {
+      "lvl1": "Breadcrumb",
+      "lvl2": "Separators",
+      "lvl3": "Using an icon as the separator"
+    }
+  },
+  {
+    "content": "Navbar",
+    "id": "07a43522-3a3a-4e62-9e49-576e2c4830b0",
+    "type": "lvl3",
+    "url": "/docs/navigation/navbar",
+    "hierarchy": {
+      "lvl1": "Navbar"
+    }
+  },
+  {
     "content": "Composition",
     "id": "3b84dae4-2452-4a6c-b2ae-e49e082ac5b4",
     "type": "lvl2",
@@ -1863,6 +1946,17 @@
       "lvl1": "Breadcrumb",
       "lvl2": "Usage with Routing Library",
       "lvl3": null
+    }
+  },
+  {
+    "content": "Sidebar",
+    "id": "206d35a6-2135-4412-8061-14385e903141",
+    "type": "lvl2",
+    "url": "/docs/navigation/sidebar",
+    "hierarchy": {
+      "lvl1": "Sidebar",
+      "lvl2": "Navigation",
+      "lvl3": "Routing"
     }
   },
   {

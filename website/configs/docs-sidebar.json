@@ -13,6 +13,10 @@
           "path": "/changelog"
         },
         {
+          "title": "Routing",
+          "path": "/docs/routing"
+        },
+        {
           "title": "Theme",
           "path": "/docs/theming",
           "open": true,
@@ -34,6 +38,10 @@
               "path": "/docs/layout/box"
             },
             {
+              "title": "Cards",
+              "path": "/docs/layout/cards"
+            },
+            {
               "title": "Flex",
               "path": "/docs/layout/flex"
             },
@@ -42,12 +50,20 @@
               "path": "/docs/layout/grid"
             },
             {
+              "title": "Separator",
+              "path": "/docs/layout/separator"
+            },
+            {
               "title": "SimpleGrid",
               "path": "/docs/layout/simple-grid"
             },
             {
               "title": "Stack",
               "path": "/docs/layout/stack"
+            },
+            {
+              "title": "Fixed Plugin",
+              "path": "/docs/layout/fixed-plugin"
             }
           ]
         },
@@ -60,14 +76,6 @@
             {
               "title": "Button",
               "path": "/docs/form/button"
-            },
-            {
-              "title": "Cards",
-              "path": "/docs/form/cards"
-            },
-            {
-              "title": "Charts",
-              "path": "/docs/form/charts"
             },
             {
               "title": "Form Control",
@@ -84,14 +92,6 @@
             {
               "title": "Switch",
               "path": "/docs/form/switch"
-            },
-            {
-              "title": "Separator",
-              "path": "/docs/form/separator"
-            },
-            {
-              "title": "Timeline",
-              "path": "/docs/form/timeline"
             }
           ]
         },
@@ -104,6 +104,10 @@
             {
               "title": "Badge",
               "path": "/docs/data-display/badge"
+            },
+            {
+              "title": "Charts",
+              "path": "/docs/data-display/charts"
             },
             {
               "title": "Close Button",
@@ -120,6 +124,10 @@
             {
               "title": "Table",
               "path": "/docs/data-display/table"
+            },
+            {
+              "title": "Timeline",
+              "path": "/docs/data-display/timeline"
             }
           ]
         },
@@ -187,6 +195,10 @@
             {
               "title": "Navbar",
               "path": "/docs/navigation/navbar"
+            },
+            {
+              "title": "Sidebar",
+              "path": "/docs/navigation/sidebar"
             }
           ]
         },

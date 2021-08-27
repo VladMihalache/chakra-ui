@@ -12,6 +12,11 @@ async function redirect() {
       permanent: true,
     },
     {
+      source: "/routing",
+      destination: "/docs/routing",
+      permanent: true,
+    },
+    {
       source: "/principles",
       destination: "/docs/principles",
       permanent: true,
@@ -38,8 +43,18 @@ async function redirect() {
       permanent: true,
     },
     {
+      source: "/fixed-plugin",
+      destination: "/docs/layout/fixed-plugin",
+      permanent: true,
+    },
+    {
       source: "/breadcrumb",
       destination: "/docs/navigation/breadcrumb",
+      permanent: true,
+    },
+    {
+      source: "/sidebar",
+      destination: "/docs/navigation/sidebar",
       permanent: true,
     },
     {
@@ -49,12 +64,12 @@ async function redirect() {
     },
     {
       source: "/cards",
-      destination: "/docs/form/cards",
+      destination: "/docs/layout/cards",
       permanent: true,
     },
     {
       source: "/charts",
-      destination: "/docs/form/cards",
+      destination: "/docs/data-display/cards",
       permanent: true,
     },
     {
@@ -105,7 +120,7 @@ async function redirect() {
     },
     {
       source: "/separator",
-      destination: "/docs/form/separator",
+      destination: "/docs/layout/separator",
       permanent: true,
     },
     {
@@ -181,7 +196,7 @@ async function redirect() {
     },
     {
       source: "/timeline",
-      destination: "/docs/form/timeline",
+      destination: "/docs/data-display/timeline",
       permanent: true,
     },
     {
