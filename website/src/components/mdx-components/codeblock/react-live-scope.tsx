@@ -16,8 +16,18 @@ import {
   MdPhone,
   MdArrowDropDown,
 } from "react-icons/md"
-import { AiOutlineUser } from "react-icons/ai"
-import { FaFacebook, FaTwitter } from "react-icons/fa"
+import { AiOutlineUser, AiOutlineExclamation } from "react-icons/ai"
+import {
+  FaFacebook,
+  FaTwitter,
+  FaTrashAlt,
+  FaPencilAlt,
+  FaFilePdf,
+  FaEllipsisV,
+  FaRegCalendarAlt,
+  FaArrowUp,
+  FaArrowDown,
+} from "react-icons/fa"
 import Lorem from "react-lorem-component"
 import * as Loaders from "react-spinners"
 import CircleIcon from "../../docs/icon"
@@ -33,8 +43,16 @@ const reactIcons = {
   MdPhone,
   MdArrowDropDown,
   AiOutlineUser,
+  AiOutlineExclamation,
   FaFacebook,
   FaTwitter,
+  FaTrashAlt,
+  FaPencilAlt,
+  FaFilePdf,
+  FaEllipsisV,
+  FaRegCalendarAlt,
+  FaArrowUp,
+  FaArrowDown,
 }
 
 const StarIcon = (props) => (
