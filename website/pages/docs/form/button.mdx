@@ -23,7 +23,9 @@ import { Button, ButtonGroup } from "@chakra-ui/react"
 ## Usage
 
 ```jsx
-<Button colorScheme="blue">Button</Button>
+<Button borderRadius="12px" colorScheme="blue">
+  Button
+</Button>
 ```
 
 ```tsx
@@ -37,16 +39,16 @@ Use the `size` prop to change the size of the button. You can set the value to
 
 ```jsx
 <Stack spacing={4} direction="row" align="center">
-  <Button colorScheme="teal" size="xs">
+  <Button borderRadius="12px" colorScheme="teal" size="xs">
     Button
   </Button>
-  <Button colorScheme="teal" size="sm">
+  <Button borderRadius="12px" colorScheme="teal" size="sm">
     Button
   </Button>
-  <Button colorScheme="teal" size="md">
+  <Button borderRadius="12px" colorScheme="teal" size="md">
     Button
   </Button>
-  <Button colorScheme="teal" size="lg">
+  <Button borderRadius="12px" colorScheme="teal" size="lg">
     Button
   </Button>
 </Stack>
@@ -76,16 +78,16 @@ value to `solid`, `ghost`, `outline`, or `link`.
 
 ```jsx
 <Stack direction="row" spacing={4} align="center">
-  <Button colorScheme="teal" variant="solid">
+  <Button borderRadius="12px" colorScheme="teal" variant="solid">
     Button
   </Button>
-  <Button colorScheme="teal" variant="outline">
+  <Button borderRadius="12px" colorScheme="teal" variant="outline">
     Button
   </Button>
-  <Button colorScheme="teal" variant="ghost">
+  <Button borderRadius="12px" colorScheme="teal" variant="ghost">
     Button
   </Button>
-  <Button colorScheme="teal" variant="link">
+  <Button borderRadius="12px" colorScheme="teal" variant="link">
     Button
   </Button>
 </Stack>
@@ -118,10 +120,20 @@ and `rightIcon` props respectively.
 
 ```jsx
 <Stack direction="row" spacing={4}>
-  <Button leftIcon={<EmailIcon />} colorScheme="teal" variant="solid">
+  <Button
+    borderRadius="12px"
+    leftIcon={<EmailIcon />}
+    colorScheme="teal"
+    variant="solid"
+  >
     Email
   </Button>
-  <Button rightIcon={<ArrowForwardIcon />} colorScheme="teal" variant="outline">
+  <Button
+    borderRadius="12px"
+    rightIcon={<ArrowForwardIcon />}
+    colorScheme="teal"
+    variant="outline"
+  >
     Call us
   </Button>
 </Stack>
@@ -146,10 +158,20 @@ button.
 // import { MdBuild , MdCall } from "react-icons/md"
 
 <Stack direction="row" spacing={4}>
-  <Button leftIcon={<MdBuild />} colorScheme="pink" variant="solid">
+  <Button
+    borderRadius="12px"
+    leftIcon={<MdBuild />}
+    colorScheme="pink"
+    variant="solid"
+  >
     Settings
   </Button>
-  <Button rightIcon={<MdCall />} colorScheme="blue" variant="outline">
+  <Button
+    borderRadius="12px"
+    rightIcon={<MdCall />}
+    colorScheme="blue"
+    variant="outline"
+  >
     Call us
   </Button>
 </Stack>
@@ -177,10 +199,11 @@ You can also pass the `loadingText` prop to show a spinner and the loading text.
 
 ```jsx
 <Stack direction="row" spacing={4}>
-  <Button isLoading colorScheme="teal" variant="solid">
+  <Button borderRadius="12px" isLoading colorScheme="teal" variant="solid">
     Email
   </Button>
   <Button
+    borderRadius="12px"
     isLoading
     loadingText="Submitting"
     colorScheme="teal"
@@ -212,6 +235,7 @@ requirements. Pass the `spinner` prop and set it to a custom react element.
 
 ```jsx
 <Button
+  borderRadius="12px"
   isLoading
   colorScheme="blue"
   spinner={<BeatLoader size={8} color="white" />}
@@ -236,6 +260,7 @@ element to either `start` or `end`. It is `start` by default.
 ```jsx
 <Stack direction="row" spacing={4} align="center">
   <Button
+    borderRadius="12px"
     isLoading
     loadingText="Loading"
     colorScheme="red"
@@ -245,6 +270,7 @@ element to either `start` or `end`. It is `start` by default.
     Submit
   </Button>
   <Button
+    borderRadius="12px"
     isLoading
     loadingText="Loading"
     colorScheme="teal"
@@ -286,10 +312,10 @@ use their buttons via the `colorScheme` prop.
 
 ```jsx
 <HStack>
-  <Button colorScheme="facebook" leftIcon={<FaFacebook />}>
+  <Button borderRadius="12px" colorScheme="facebook" leftIcon={<FaFacebook />}>
     Facebook
   </Button>
-  <Button colorScheme="twitter" leftIcon={<FaTwitter />}>
+  <Button borderRadius="12px" colorScheme="twitter" leftIcon={<FaTwitter />}>
     Twitter
   </Button>
 </HStack>
@@ -321,9 +347,11 @@ use the `ButtonGroup` component, it allows you to:
   as needed.
 
 ```jsx
-<ButtonGroup variant="outline" spacing="6">
-  <Button colorScheme="blue">Save</Button>
-  <Button>Cancel</Button>
+<ButtonGroup borderRadius="15px" variant="outline" spacing="6">
+  <Button borderRadius="15px" colorScheme="blue">
+    Save
+  </Button>
+  <Button borderRadius="15px">Cancel</Button>
 </ButtonGroup>
 ```
 
@@ -337,9 +365,15 @@ use the `ButtonGroup` component, it allows you to:
 To flush the buttons, pass the `isAttached` prop.
 
 ```jsx
-<ButtonGroup size="sm" isAttached variant="outline">
-  <Button mr="-px">Save</Button>
-  <IconButton aria-label="Add to friends" icon={<AddIcon />} />
+<ButtonGroup borderRadius="15px" size="sm" isAttached variant="outline">
+  <Button borderRadius="15px" mr="-px">
+    Save
+  </Button>
+  <IconButton
+    borderRadius="15px"
+    aria-label="Add to friends"
+    icon={<AddIcon />}
+  />
 </ButtonGroup>
 ```
 
@@ -347,6 +381,32 @@ To flush the buttons, pass the `isAttached` prop.
 <ButtonGroup size="sm" isAttached variant="outline">
   <Button mr="-px">Save</Button>
   <IconButton aria-label="Add to friends" icon={<AddIcon />} />
+</ButtonGroup>
+```
+
+### Variants
+
+You can use the `Stack` or `ButtonGroup` component to group buttons. When you
+use the `ButtonGroup` component, it allows you to:
+
+- Set the `size` and `variant` of all buttons within it.
+- Add `spacing` between the buttons.
+- Flush the buttons together by removing the border radius of the its children
+  as needed.
+
+```jsx
+<ButtonGroup borderRadius="15px" variant="outline" spacing="6">
+  <Button borderRadius="15px" colorScheme="blue">
+    Save
+  </Button>
+  <Button borderRadius="15px">Cancel</Button>
+</ButtonGroup>
+```
+
+```tsx
+<ButtonGroup variant="outline" spacing="6">
+  <Button colorScheme="blue">Save</Button>
+  <Button>Cancel</Button>
 </ButtonGroup>
 ```
 
@@ -360,31 +420,120 @@ To flush the buttons, pass the `isAttached` prop.
 All props you pass (`variant`, `colorScheme`, etc.) are converted to style
 props. This means you can override any style of the Button via props.
 
+## Custom variants:
+
+"transparent-with-icon"
+
 ```jsx
-// The size prop affects the height of the button
-// It can still be overridden by passing a custom height
-<Button
-  size="md"
-  height="48px"
-  width="200px"
-  border="2px"
-  borderColor="green.500"
->
-  Button
-</Button>
+function Example() {
+  let mainTeal = useColorModeValue("teal.300", "teal.300")
+  let inputBg = useColorModeValue("white", "gray.800")
+  let mainText = useColorModeValue("gray.700", "gray.200")
+  let navbarIcon = useColorModeValue("gray.500", "gray.200")
+  let searchIcon = useColorModeValue("gray.700", "gray.200")
+  return (
+    <Button
+      bg="transparent"
+      fontWeight="bold"
+      borderRadius="inherit"
+      cursor="pointer"
+      _hover="none"
+      _active={{
+        bg: "transparent",
+        transform: "none",
+        borderColor: "transparent",
+      }}
+      _focus={{ boxShadow: "none" }}
+      _hover={{ boxShadow: "none" }}
+      borderRadius="15px"
+      colorScheme="blue"
+      ms="0px"
+      px="0px"
+      me={{ sm: "2px", md: "16px" }}
+      color={navbarIcon}
+      variant="transparent-with-icon"
+      leftIcon={<EmailIcon color={navbarIcon} w="22px" h="22px" me="0px" />}
+    >
+      Email
+    </Button>
+  )
+}
 ```
 
 ```tsx
-// The size prop affects the height of the button
-// It can still be overridden by passing a custom height
-<Button
-  size="md"
-  height="48px"
-  width="200px"
-  border="2px"
-  borderColor="green.500"
+<Button variant="transparent-with-icon" colorScheme="blue">
+  Email
+</Button>
+```
+
+"no-hover"
+
+```jsx
+function Example() {
+  let navbarIcon = useColorModeValue("gray.700", "gray.200")
+  let mainText = useColorModeValue("gray.700", "gray.200")
+  let navbarBg = useColorModeValue(
+    "linear-gradient(112.83deg, rgba(255, 255, 255, 0.82) 0%, rgba(255, 255, 255, 0.8) 110.84%)",
+    "linear-gradient(112.83deg, rgba(255, 255, 255, 0.21) 0%, rgba(255, 255, 255, 0) 110.84%)",
+  )
+  let navbarBorder = useColorModeValue(
+    "1.5px solid #FFFFFF",
+    "1.5px solid rgba(255, 255, 255, 0.31)",
+  )
+  let navbarShadow = useColorModeValue(
+    "0px 7px 23px rgba(0, 0, 0, 0.05)",
+    "none",
+  )
+  let navbarFilter = useColorModeValue(
+    "none",
+    "drop-shadow(0px 7px 23px rgba(0, 0, 0, 0.05))",
+  )
+  let navbarBackdrop = "blur(21px)"
+  let bgButton = useColorModeValue(
+    "linear-gradient(81.62deg, #313860 2.25%, #151928 79.87%)",
+    "gray.700",
+  )
+  let navbarPosition = "fixed"
+  let colorButton = "white"
+  return (
+    <Button
+      _hover={{ boxShadow: "none" }}
+      bg={bgButton}
+      color={colorButton}
+      fontSize="xs"
+      borderRadius="35px"
+      px="30px"
+      _active="none"
+      display={{
+        sm: "none",
+        lg: "flex",
+      }}
+    >
+      Free Download
+    </Button>
+  )
+}
+```
+
+```tsx
+let bgButton = useColorModeValue(
+  "linear-gradient(81.62deg, #313860 2.25%, #151928 79.87%)",
+  "gray.700",
+)
+let colorButton = "white"
+;<Button
+  bg={bgButton}
+  color={colorButton}
+  fontSize="xs"
+  variant="no-hover"
+  borderRadius="35px"
+  px="30px"
+  display={{
+    sm: "none",
+    lg: "flex",
+  }}
 >
-  Button
+  Free Download
 </Button>
 ```
 
