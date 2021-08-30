@@ -12,11 +12,11 @@ export const AdBanner = () => {
     >
       <Flex align="center" fontSize="sm">
         <Text fontWeight="medium" maxW={{ base: "32ch", md: "unset" }}>
-          Build faster with Premium Chakra UI Components 💎
+          Check Purity UI Dashboard on our website! 💎
         </Text>
         <chakra.a
           flexShrink={0}
-          href={getUrl("ad-banner")}
+          href="https://creative-tim.com/product/purity-ui-dashboard?ref=docs-pud"
           ms="6"
           bg="blackAlpha.300"
           color="whiteAlpha.900"

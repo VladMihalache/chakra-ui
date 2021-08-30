@@ -17,7 +17,7 @@ import CodeBlock from "./codeblock/codeblock"
 import ComponentLinks from "./component-links"
 import IconsList from "./icons-list"
 
-const { Alert, AspectRatio, Box, chakra, Kbd } = Chakra
+const { Alert, Box, chakra, Kbd } = Chakra
 
 export const MDXComponents = {
   ...Chakra,
@@ -63,7 +63,6 @@ export const MDXComponents = {
   IconsList,
   PropsTable,
   VideoPlayer,
-  AspectRatio,
   ColorPalette,
   ColorPalettes,
   ColorWrapper,
